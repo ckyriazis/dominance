@@ -1,0 +1,2356 @@
+// Initial random seed:
+1771876823124
+
+// RunInitializeCallbacks():
+initializeMutationRate(1.04683e-08);
+initializeMutationType(1, 0.5, "s", "return runif(1, -2e-5, 0.0);");
+initializeMutationType(2, 0.45, "s", "return runif(1, -2e-4, -2e-5);");
+initializeMutationType(3, 0.35, "s", "return runif(1, -2e-3, -2e-4);");
+initializeMutationType(4, 0.25, "s", "return runif(1, -2e-2, -2e-3);");
+initializeMutationType(5, 0.1, "s", "return runif(1, -1.0, -2e-2);");
+initializeGenomicElementType(1, c(m1, m2, m3, m4, m5), c(0.285534, 0.0631, 0.238004, 0.280625, 0.132695));
+initializeGenomicElement(g1, 0, 1339);
+initializeGenomicElement(g1, 1341, 2680);
+initializeGenomicElement(g1, 2682, 4021);
+initializeGenomicElement(g1, 4023, 5362);
+initializeGenomicElement(g1, 5364, 6703);
+initializeGenomicElement(g1, 6705, 8044);
+initializeGenomicElement(g1, 8046, 9385);
+initializeGenomicElement(g1, 9387, 10726);
+initializeGenomicElement(g1, 10728, 12067);
+initializeGenomicElement(g1, 12069, 13408);
+initializeGenomicElement(g1, 13410, 14749);
+initializeGenomicElement(g1, 14751, 16090);
+initializeGenomicElement(g1, 16092, 17431);
+initializeGenomicElement(g1, 17433, 18772);
+initializeGenomicElement(g1, 18774, 20113);
+initializeGenomicElement(g1, 20115, 21454);
+initializeGenomicElement(g1, 21456, 22795);
+initializeGenomicElement(g1, 22797, 24136);
+initializeGenomicElement(g1, 24138, 25477);
+initializeGenomicElement(g1, 25479, 26818);
+initializeGenomicElement(g1, 26820, 28159);
+initializeGenomicElement(g1, 28161, 29500);
+initializeGenomicElement(g1, 29502, 30841);
+initializeGenomicElement(g1, 30843, 32182);
+initializeGenomicElement(g1, 32184, 33523);
+initializeGenomicElement(g1, 33525, 34864);
+initializeGenomicElement(g1, 34866, 36205);
+initializeGenomicElement(g1, 36207, 37546);
+initializeGenomicElement(g1, 37548, 38887);
+initializeGenomicElement(g1, 38889, 40228);
+initializeGenomicElement(g1, 40230, 41569);
+initializeGenomicElement(g1, 41571, 42910);
+initializeGenomicElement(g1, 42912, 44251);
+initializeGenomicElement(g1, 44253, 45592);
+initializeGenomicElement(g1, 45594, 46933);
+initializeGenomicElement(g1, 46935, 48274);
+initializeGenomicElement(g1, 48276, 49615);
+initializeGenomicElement(g1, 49617, 50956);
+initializeGenomicElement(g1, 50958, 52297);
+initializeGenomicElement(g1, 52299, 53638);
+initializeGenomicElement(g1, 53640, 54979);
+initializeGenomicElement(g1, 54981, 56320);
+initializeGenomicElement(g1, 56322, 57661);
+initializeGenomicElement(g1, 57663, 59002);
+initializeGenomicElement(g1, 59004, 60343);
+initializeGenomicElement(g1, 60345, 61684);
+initializeGenomicElement(g1, 61686, 63025);
+initializeGenomicElement(g1, 63027, 64366);
+initializeGenomicElement(g1, 64368, 65707);
+initializeGenomicElement(g1, 65709, 67048);
+initializeGenomicElement(g1, 67050, 68389);
+initializeGenomicElement(g1, 68391, 69730);
+initializeGenomicElement(g1, 69732, 71071);
+initializeGenomicElement(g1, 71073, 72412);
+initializeGenomicElement(g1, 72414, 73753);
+initializeGenomicElement(g1, 73755, 75094);
+initializeGenomicElement(g1, 75096, 76435);
+initializeGenomicElement(g1, 76437, 77776);
+initializeGenomicElement(g1, 77778, 79117);
+initializeGenomicElement(g1, 79119, 80458);
+initializeGenomicElement(g1, 80460, 81799);
+initializeGenomicElement(g1, 81801, 83140);
+initializeGenomicElement(g1, 83142, 84481);
+initializeGenomicElement(g1, 84483, 85822);
+initializeGenomicElement(g1, 85824, 87163);
+initializeGenomicElement(g1, 87165, 88504);
+initializeGenomicElement(g1, 88506, 89845);
+initializeGenomicElement(g1, 89847, 91186);
+initializeGenomicElement(g1, 91188, 92527);
+initializeGenomicElement(g1, 92529, 93868);
+initializeGenomicElement(g1, 93870, 95209);
+initializeGenomicElement(g1, 95211, 96550);
+initializeGenomicElement(g1, 96552, 97891);
+initializeGenomicElement(g1, 97893, 99232);
+initializeGenomicElement(g1, 99234, 100573);
+initializeGenomicElement(g1, 100575, 101914);
+initializeGenomicElement(g1, 101916, 103255);
+initializeGenomicElement(g1, 103257, 104596);
+initializeGenomicElement(g1, 104598, 105937);
+initializeGenomicElement(g1, 105939, 107278);
+initializeGenomicElement(g1, 107280, 108619);
+initializeGenomicElement(g1, 108621, 109960);
+initializeGenomicElement(g1, 109962, 111301);
+initializeGenomicElement(g1, 111303, 112642);
+initializeGenomicElement(g1, 112644, 113983);
+initializeGenomicElement(g1, 113985, 115324);
+initializeGenomicElement(g1, 115326, 116665);
+initializeGenomicElement(g1, 116667, 118006);
+initializeGenomicElement(g1, 118008, 119347);
+initializeGenomicElement(g1, 119349, 120688);
+initializeGenomicElement(g1, 120690, 122029);
+initializeGenomicElement(g1, 122031, 123370);
+initializeGenomicElement(g1, 123372, 124711);
+initializeGenomicElement(g1, 124713, 126052);
+initializeGenomicElement(g1, 126054, 127393);
+initializeGenomicElement(g1, 127395, 128734);
+initializeGenomicElement(g1, 128736, 130075);
+initializeGenomicElement(g1, 130077, 131416);
+initializeGenomicElement(g1, 131418, 132757);
+initializeGenomicElement(g1, 132759, 134098);
+initializeGenomicElement(g1, 134100, 135439);
+initializeGenomicElement(g1, 135441, 136780);
+initializeGenomicElement(g1, 136782, 138121);
+initializeGenomicElement(g1, 138123, 139462);
+initializeGenomicElement(g1, 139464, 140803);
+initializeGenomicElement(g1, 140805, 142144);
+initializeGenomicElement(g1, 142146, 143485);
+initializeGenomicElement(g1, 143487, 144826);
+initializeGenomicElement(g1, 144828, 146167);
+initializeGenomicElement(g1, 146169, 147508);
+initializeGenomicElement(g1, 147510, 148849);
+initializeGenomicElement(g1, 148851, 150190);
+initializeGenomicElement(g1, 150192, 151531);
+initializeGenomicElement(g1, 151533, 152872);
+initializeGenomicElement(g1, 152874, 154213);
+initializeGenomicElement(g1, 154215, 155554);
+initializeGenomicElement(g1, 155556, 156895);
+initializeGenomicElement(g1, 156897, 158236);
+initializeGenomicElement(g1, 158238, 159577);
+initializeGenomicElement(g1, 159579, 160918);
+initializeGenomicElement(g1, 160920, 162259);
+initializeGenomicElement(g1, 162261, 163600);
+initializeGenomicElement(g1, 163602, 164941);
+initializeGenomicElement(g1, 164943, 166282);
+initializeGenomicElement(g1, 166284, 167623);
+initializeGenomicElement(g1, 167625, 168964);
+initializeGenomicElement(g1, 168966, 170305);
+initializeGenomicElement(g1, 170307, 171646);
+initializeGenomicElement(g1, 171648, 172987);
+initializeGenomicElement(g1, 172989, 174328);
+initializeGenomicElement(g1, 174330, 175669);
+initializeGenomicElement(g1, 175671, 177010);
+initializeGenomicElement(g1, 177012, 178351);
+initializeGenomicElement(g1, 178353, 179692);
+initializeGenomicElement(g1, 179694, 181033);
+initializeGenomicElement(g1, 181035, 182374);
+initializeGenomicElement(g1, 182376, 183715);
+initializeGenomicElement(g1, 183717, 185056);
+initializeGenomicElement(g1, 185058, 186397);
+initializeGenomicElement(g1, 186399, 187738);
+initializeGenomicElement(g1, 187740, 189079);
+initializeGenomicElement(g1, 189081, 190420);
+initializeGenomicElement(g1, 190422, 191761);
+initializeGenomicElement(g1, 191763, 193102);
+initializeGenomicElement(g1, 193104, 194443);
+initializeGenomicElement(g1, 194445, 195784);
+initializeGenomicElement(g1, 195786, 197125);
+initializeGenomicElement(g1, 197127, 198466);
+initializeGenomicElement(g1, 198468, 199807);
+initializeGenomicElement(g1, 199809, 201148);
+initializeGenomicElement(g1, 201150, 202489);
+initializeGenomicElement(g1, 202491, 203830);
+initializeGenomicElement(g1, 203832, 205171);
+initializeGenomicElement(g1, 205173, 206512);
+initializeGenomicElement(g1, 206514, 207853);
+initializeGenomicElement(g1, 207855, 209194);
+initializeGenomicElement(g1, 209196, 210535);
+initializeGenomicElement(g1, 210537, 211876);
+initializeGenomicElement(g1, 211878, 213217);
+initializeGenomicElement(g1, 213219, 214558);
+initializeGenomicElement(g1, 214560, 215899);
+initializeGenomicElement(g1, 215901, 217240);
+initializeGenomicElement(g1, 217242, 218581);
+initializeGenomicElement(g1, 218583, 219922);
+initializeGenomicElement(g1, 219924, 221263);
+initializeGenomicElement(g1, 221265, 222604);
+initializeGenomicElement(g1, 222606, 223945);
+initializeGenomicElement(g1, 223947, 225286);
+initializeGenomicElement(g1, 225288, 226627);
+initializeGenomicElement(g1, 226629, 227968);
+initializeGenomicElement(g1, 227970, 229309);
+initializeGenomicElement(g1, 229311, 230650);
+initializeGenomicElement(g1, 230652, 231991);
+initializeGenomicElement(g1, 231993, 233332);
+initializeGenomicElement(g1, 233334, 234673);
+initializeGenomicElement(g1, 234675, 236014);
+initializeGenomicElement(g1, 236016, 237355);
+initializeGenomicElement(g1, 237357, 238696);
+initializeGenomicElement(g1, 238698, 240037);
+initializeGenomicElement(g1, 240039, 241378);
+initializeGenomicElement(g1, 241380, 242719);
+initializeGenomicElement(g1, 242721, 244060);
+initializeGenomicElement(g1, 244062, 245401);
+initializeGenomicElement(g1, 245403, 246742);
+initializeGenomicElement(g1, 246744, 248083);
+initializeGenomicElement(g1, 248085, 249424);
+initializeGenomicElement(g1, 249426, 250765);
+initializeGenomicElement(g1, 250767, 252106);
+initializeGenomicElement(g1, 252108, 253447);
+initializeGenomicElement(g1, 253449, 254788);
+initializeGenomicElement(g1, 254790, 256129);
+initializeGenomicElement(g1, 256131, 257470);
+initializeGenomicElement(g1, 257472, 258811);
+initializeGenomicElement(g1, 258813, 260152);
+initializeGenomicElement(g1, 260154, 261493);
+initializeGenomicElement(g1, 261495, 262834);
+initializeGenomicElement(g1, 262836, 264175);
+initializeGenomicElement(g1, 264177, 265516);
+initializeGenomicElement(g1, 265518, 266857);
+initializeGenomicElement(g1, 266859, 268198);
+initializeGenomicElement(g1, 268200, 269539);
+initializeGenomicElement(g1, 269541, 270880);
+initializeGenomicElement(g1, 270882, 272221);
+initializeGenomicElement(g1, 272223, 273562);
+initializeGenomicElement(g1, 273564, 274903);
+initializeGenomicElement(g1, 274905, 276244);
+initializeGenomicElement(g1, 276246, 277585);
+initializeGenomicElement(g1, 277587, 278926);
+initializeGenomicElement(g1, 278928, 280267);
+initializeGenomicElement(g1, 280269, 281608);
+initializeGenomicElement(g1, 281610, 282949);
+initializeGenomicElement(g1, 282951, 284290);
+initializeGenomicElement(g1, 284292, 285631);
+initializeGenomicElement(g1, 285633, 286972);
+initializeGenomicElement(g1, 286974, 288313);
+initializeGenomicElement(g1, 288315, 289654);
+initializeGenomicElement(g1, 289656, 290995);
+initializeGenomicElement(g1, 290997, 292336);
+initializeGenomicElement(g1, 292338, 293677);
+initializeGenomicElement(g1, 293679, 295018);
+initializeGenomicElement(g1, 295020, 296359);
+initializeGenomicElement(g1, 296361, 297700);
+initializeGenomicElement(g1, 297702, 299041);
+initializeGenomicElement(g1, 299043, 300382);
+initializeGenomicElement(g1, 300384, 301723);
+initializeGenomicElement(g1, 301725, 303064);
+initializeGenomicElement(g1, 303066, 304405);
+initializeGenomicElement(g1, 304407, 305746);
+initializeGenomicElement(g1, 305748, 307087);
+initializeGenomicElement(g1, 307089, 308428);
+initializeGenomicElement(g1, 308430, 309769);
+initializeGenomicElement(g1, 309771, 311110);
+initializeGenomicElement(g1, 311112, 312451);
+initializeGenomicElement(g1, 312453, 313792);
+initializeGenomicElement(g1, 313794, 315133);
+initializeGenomicElement(g1, 315135, 316474);
+initializeGenomicElement(g1, 316476, 317815);
+initializeGenomicElement(g1, 317817, 319156);
+initializeGenomicElement(g1, 319158, 320497);
+initializeGenomicElement(g1, 320499, 321838);
+initializeGenomicElement(g1, 321840, 323179);
+initializeGenomicElement(g1, 323181, 324520);
+initializeGenomicElement(g1, 324522, 325861);
+initializeGenomicElement(g1, 325863, 327202);
+initializeGenomicElement(g1, 327204, 328543);
+initializeGenomicElement(g1, 328545, 329884);
+initializeGenomicElement(g1, 329886, 331225);
+initializeGenomicElement(g1, 331227, 332566);
+initializeGenomicElement(g1, 332568, 333907);
+initializeGenomicElement(g1, 333909, 335248);
+initializeGenomicElement(g1, 335250, 336589);
+initializeGenomicElement(g1, 336591, 337930);
+initializeGenomicElement(g1, 337932, 339271);
+initializeGenomicElement(g1, 339273, 340612);
+initializeGenomicElement(g1, 340614, 341953);
+initializeGenomicElement(g1, 341955, 343294);
+initializeGenomicElement(g1, 343296, 344635);
+initializeGenomicElement(g1, 344637, 345976);
+initializeGenomicElement(g1, 345978, 347317);
+initializeGenomicElement(g1, 347319, 348658);
+initializeGenomicElement(g1, 348660, 349999);
+initializeGenomicElement(g1, 350001, 351340);
+initializeGenomicElement(g1, 351342, 352681);
+initializeGenomicElement(g1, 352683, 354022);
+initializeGenomicElement(g1, 354024, 355363);
+initializeGenomicElement(g1, 355365, 356704);
+initializeGenomicElement(g1, 356706, 358045);
+initializeGenomicElement(g1, 358047, 359386);
+initializeGenomicElement(g1, 359388, 360727);
+initializeGenomicElement(g1, 360729, 362068);
+initializeGenomicElement(g1, 362070, 363409);
+initializeGenomicElement(g1, 363411, 364750);
+initializeGenomicElement(g1, 364752, 366091);
+initializeGenomicElement(g1, 366093, 367432);
+initializeGenomicElement(g1, 367434, 368773);
+initializeGenomicElement(g1, 368775, 370114);
+initializeGenomicElement(g1, 370116, 371455);
+initializeGenomicElement(g1, 371457, 372796);
+initializeGenomicElement(g1, 372798, 374137);
+initializeGenomicElement(g1, 374139, 375478);
+initializeGenomicElement(g1, 375480, 376819);
+initializeGenomicElement(g1, 376821, 378160);
+initializeGenomicElement(g1, 378162, 379501);
+initializeGenomicElement(g1, 379503, 380842);
+initializeGenomicElement(g1, 380844, 382183);
+initializeGenomicElement(g1, 382185, 383524);
+initializeGenomicElement(g1, 383526, 384865);
+initializeGenomicElement(g1, 384867, 386206);
+initializeGenomicElement(g1, 386208, 387547);
+initializeGenomicElement(g1, 387549, 388888);
+initializeGenomicElement(g1, 388890, 390229);
+initializeGenomicElement(g1, 390231, 391570);
+initializeGenomicElement(g1, 391572, 392911);
+initializeGenomicElement(g1, 392913, 394252);
+initializeGenomicElement(g1, 394254, 395593);
+initializeGenomicElement(g1, 395595, 396934);
+initializeGenomicElement(g1, 396936, 398275);
+initializeGenomicElement(g1, 398277, 399616);
+initializeGenomicElement(g1, 399618, 400957);
+initializeGenomicElement(g1, 400959, 402298);
+initializeGenomicElement(g1, 402300, 403639);
+initializeGenomicElement(g1, 403641, 404980);
+initializeGenomicElement(g1, 404982, 406321);
+initializeGenomicElement(g1, 406323, 407662);
+initializeGenomicElement(g1, 407664, 409003);
+initializeGenomicElement(g1, 409005, 410344);
+initializeGenomicElement(g1, 410346, 411685);
+initializeGenomicElement(g1, 411687, 413026);
+initializeGenomicElement(g1, 413028, 414367);
+initializeGenomicElement(g1, 414369, 415708);
+initializeGenomicElement(g1, 415710, 417049);
+initializeGenomicElement(g1, 417051, 418390);
+initializeGenomicElement(g1, 418392, 419731);
+initializeGenomicElement(g1, 419733, 421072);
+initializeGenomicElement(g1, 421074, 422413);
+initializeGenomicElement(g1, 422415, 423754);
+initializeGenomicElement(g1, 423756, 425095);
+initializeGenomicElement(g1, 425097, 426436);
+initializeGenomicElement(g1, 426438, 427777);
+initializeGenomicElement(g1, 427779, 429118);
+initializeGenomicElement(g1, 429120, 430459);
+initializeGenomicElement(g1, 430461, 431800);
+initializeGenomicElement(g1, 431802, 433141);
+initializeGenomicElement(g1, 433143, 434482);
+initializeGenomicElement(g1, 434484, 435823);
+initializeGenomicElement(g1, 435825, 437164);
+initializeGenomicElement(g1, 437166, 438505);
+initializeGenomicElement(g1, 438507, 439846);
+initializeGenomicElement(g1, 439848, 441187);
+initializeGenomicElement(g1, 441189, 442528);
+initializeGenomicElement(g1, 442530, 443869);
+initializeGenomicElement(g1, 443871, 445210);
+initializeGenomicElement(g1, 445212, 446551);
+initializeGenomicElement(g1, 446553, 447892);
+initializeGenomicElement(g1, 447894, 449233);
+initializeGenomicElement(g1, 449235, 450574);
+initializeGenomicElement(g1, 450576, 451915);
+initializeGenomicElement(g1, 451917, 453256);
+initializeGenomicElement(g1, 453258, 454597);
+initializeGenomicElement(g1, 454599, 455938);
+initializeGenomicElement(g1, 455940, 457279);
+initializeGenomicElement(g1, 457281, 458620);
+initializeGenomicElement(g1, 458622, 459961);
+initializeGenomicElement(g1, 459963, 461302);
+initializeGenomicElement(g1, 461304, 462643);
+initializeGenomicElement(g1, 462645, 463984);
+initializeGenomicElement(g1, 463986, 465325);
+initializeGenomicElement(g1, 465327, 466666);
+initializeGenomicElement(g1, 466668, 468007);
+initializeGenomicElement(g1, 468009, 469348);
+initializeGenomicElement(g1, 469350, 470689);
+initializeGenomicElement(g1, 470691, 472030);
+initializeGenomicElement(g1, 472032, 473371);
+initializeGenomicElement(g1, 473373, 474712);
+initializeGenomicElement(g1, 474714, 476053);
+initializeGenomicElement(g1, 476055, 477394);
+initializeGenomicElement(g1, 477396, 478735);
+initializeGenomicElement(g1, 478737, 480076);
+initializeGenomicElement(g1, 480078, 481417);
+initializeGenomicElement(g1, 481419, 482758);
+initializeGenomicElement(g1, 482760, 484099);
+initializeGenomicElement(g1, 484101, 485440);
+initializeGenomicElement(g1, 485442, 486781);
+initializeGenomicElement(g1, 486783, 488122);
+initializeGenomicElement(g1, 488124, 489463);
+initializeGenomicElement(g1, 489465, 490804);
+initializeGenomicElement(g1, 490806, 492145);
+initializeGenomicElement(g1, 492147, 493486);
+initializeGenomicElement(g1, 493488, 494827);
+initializeGenomicElement(g1, 494829, 496168);
+initializeGenomicElement(g1, 496170, 497509);
+initializeGenomicElement(g1, 497511, 498850);
+initializeGenomicElement(g1, 498852, 500191);
+initializeGenomicElement(g1, 500193, 501532);
+initializeGenomicElement(g1, 501534, 502873);
+initializeGenomicElement(g1, 502875, 504214);
+initializeGenomicElement(g1, 504216, 505555);
+initializeGenomicElement(g1, 505557, 506896);
+initializeGenomicElement(g1, 506898, 508237);
+initializeGenomicElement(g1, 508239, 509578);
+initializeGenomicElement(g1, 509580, 510919);
+initializeGenomicElement(g1, 510921, 512260);
+initializeGenomicElement(g1, 512262, 513601);
+initializeGenomicElement(g1, 513603, 514942);
+initializeGenomicElement(g1, 514944, 516283);
+initializeGenomicElement(g1, 516285, 517624);
+initializeGenomicElement(g1, 517626, 518965);
+initializeGenomicElement(g1, 518967, 520306);
+initializeGenomicElement(g1, 520308, 521647);
+initializeGenomicElement(g1, 521649, 522988);
+initializeGenomicElement(g1, 522990, 524329);
+initializeGenomicElement(g1, 524331, 525670);
+initializeGenomicElement(g1, 525672, 527011);
+initializeGenomicElement(g1, 527013, 528352);
+initializeGenomicElement(g1, 528354, 529693);
+initializeGenomicElement(g1, 529695, 531034);
+initializeGenomicElement(g1, 531036, 532375);
+initializeGenomicElement(g1, 532377, 533716);
+initializeGenomicElement(g1, 533718, 535057);
+initializeGenomicElement(g1, 535059, 536398);
+initializeGenomicElement(g1, 536400, 537739);
+initializeGenomicElement(g1, 537741, 539080);
+initializeGenomicElement(g1, 539082, 540421);
+initializeGenomicElement(g1, 540423, 541762);
+initializeGenomicElement(g1, 541764, 543103);
+initializeGenomicElement(g1, 543105, 544444);
+initializeGenomicElement(g1, 544446, 545785);
+initializeGenomicElement(g1, 545787, 547126);
+initializeGenomicElement(g1, 547128, 548467);
+initializeGenomicElement(g1, 548469, 549808);
+initializeGenomicElement(g1, 549810, 551149);
+initializeGenomicElement(g1, 551151, 552490);
+initializeGenomicElement(g1, 552492, 553831);
+initializeGenomicElement(g1, 553833, 555172);
+initializeGenomicElement(g1, 555174, 556513);
+initializeGenomicElement(g1, 556515, 557854);
+initializeGenomicElement(g1, 557856, 559195);
+initializeGenomicElement(g1, 559197, 560536);
+initializeGenomicElement(g1, 560538, 561877);
+initializeGenomicElement(g1, 561879, 563218);
+initializeGenomicElement(g1, 563220, 564559);
+initializeGenomicElement(g1, 564561, 565900);
+initializeGenomicElement(g1, 565902, 567241);
+initializeGenomicElement(g1, 567243, 568582);
+initializeGenomicElement(g1, 568584, 569923);
+initializeGenomicElement(g1, 569925, 571264);
+initializeGenomicElement(g1, 571266, 572605);
+initializeGenomicElement(g1, 572607, 573946);
+initializeGenomicElement(g1, 573948, 575287);
+initializeGenomicElement(g1, 575289, 576628);
+initializeGenomicElement(g1, 576630, 577969);
+initializeGenomicElement(g1, 577971, 579310);
+initializeGenomicElement(g1, 579312, 580651);
+initializeGenomicElement(g1, 580653, 581992);
+initializeGenomicElement(g1, 581994, 583333);
+initializeGenomicElement(g1, 583335, 584674);
+initializeGenomicElement(g1, 584676, 586015);
+initializeGenomicElement(g1, 586017, 587356);
+initializeGenomicElement(g1, 587358, 588697);
+initializeGenomicElement(g1, 588699, 590038);
+initializeGenomicElement(g1, 590040, 591379);
+initializeGenomicElement(g1, 591381, 592720);
+initializeGenomicElement(g1, 592722, 594061);
+initializeGenomicElement(g1, 594063, 595402);
+initializeGenomicElement(g1, 595404, 596743);
+initializeGenomicElement(g1, 596745, 598084);
+initializeGenomicElement(g1, 598086, 599425);
+initializeGenomicElement(g1, 599427, 600766);
+initializeGenomicElement(g1, 600768, 602107);
+initializeGenomicElement(g1, 602109, 603448);
+initializeGenomicElement(g1, 603450, 604789);
+initializeGenomicElement(g1, 604791, 606130);
+initializeGenomicElement(g1, 606132, 607471);
+initializeGenomicElement(g1, 607473, 608812);
+initializeGenomicElement(g1, 608814, 610153);
+initializeGenomicElement(g1, 610155, 611494);
+initializeGenomicElement(g1, 611496, 612835);
+initializeGenomicElement(g1, 612837, 614176);
+initializeGenomicElement(g1, 614178, 615517);
+initializeGenomicElement(g1, 615519, 616858);
+initializeGenomicElement(g1, 616860, 618199);
+initializeGenomicElement(g1, 618201, 619540);
+initializeGenomicElement(g1, 619542, 620881);
+initializeGenomicElement(g1, 620883, 622222);
+initializeGenomicElement(g1, 622224, 623563);
+initializeGenomicElement(g1, 623565, 624904);
+initializeGenomicElement(g1, 624906, 626245);
+initializeGenomicElement(g1, 626247, 627586);
+initializeGenomicElement(g1, 627588, 628927);
+initializeGenomicElement(g1, 628929, 630268);
+initializeGenomicElement(g1, 630270, 631609);
+initializeGenomicElement(g1, 631611, 632950);
+initializeGenomicElement(g1, 632952, 634291);
+initializeGenomicElement(g1, 634293, 635632);
+initializeGenomicElement(g1, 635634, 636973);
+initializeGenomicElement(g1, 636975, 638314);
+initializeGenomicElement(g1, 638316, 639655);
+initializeGenomicElement(g1, 639657, 640996);
+initializeGenomicElement(g1, 640998, 642337);
+initializeGenomicElement(g1, 642339, 643678);
+initializeGenomicElement(g1, 643680, 645019);
+initializeGenomicElement(g1, 645021, 646360);
+initializeGenomicElement(g1, 646362, 647701);
+initializeGenomicElement(g1, 647703, 649042);
+initializeGenomicElement(g1, 649044, 650383);
+initializeGenomicElement(g1, 650385, 651724);
+initializeGenomicElement(g1, 651726, 653065);
+initializeGenomicElement(g1, 653067, 654406);
+initializeGenomicElement(g1, 654408, 655747);
+initializeGenomicElement(g1, 655749, 657088);
+initializeGenomicElement(g1, 657090, 658429);
+initializeGenomicElement(g1, 658431, 659770);
+initializeGenomicElement(g1, 659772, 661111);
+initializeGenomicElement(g1, 661113, 662452);
+initializeGenomicElement(g1, 662454, 663793);
+initializeGenomicElement(g1, 663795, 665134);
+initializeGenomicElement(g1, 665136, 666475);
+initializeGenomicElement(g1, 666477, 667816);
+initializeGenomicElement(g1, 667818, 669157);
+initializeGenomicElement(g1, 669159, 670498);
+initializeGenomicElement(g1, 670500, 671839);
+initializeGenomicElement(g1, 671841, 673180);
+initializeGenomicElement(g1, 673182, 674521);
+initializeGenomicElement(g1, 674523, 675862);
+initializeGenomicElement(g1, 675864, 677203);
+initializeGenomicElement(g1, 677205, 678544);
+initializeGenomicElement(g1, 678546, 679885);
+initializeGenomicElement(g1, 679887, 681226);
+initializeGenomicElement(g1, 681228, 682567);
+initializeGenomicElement(g1, 682569, 683908);
+initializeGenomicElement(g1, 683910, 685249);
+initializeGenomicElement(g1, 685251, 686590);
+initializeGenomicElement(g1, 686592, 687931);
+initializeGenomicElement(g1, 687933, 689272);
+initializeGenomicElement(g1, 689274, 690613);
+initializeGenomicElement(g1, 690615, 691954);
+initializeGenomicElement(g1, 691956, 693295);
+initializeGenomicElement(g1, 693297, 694636);
+initializeGenomicElement(g1, 694638, 695977);
+initializeGenomicElement(g1, 695979, 697318);
+initializeGenomicElement(g1, 697320, 698659);
+initializeGenomicElement(g1, 698661, 700000);
+initializeGenomicElement(g1, 700002, 701341);
+initializeGenomicElement(g1, 701343, 702682);
+initializeGenomicElement(g1, 702684, 704023);
+initializeGenomicElement(g1, 704025, 705364);
+initializeGenomicElement(g1, 705366, 706705);
+initializeGenomicElement(g1, 706707, 708046);
+initializeGenomicElement(g1, 708048, 709387);
+initializeGenomicElement(g1, 709389, 710728);
+initializeGenomicElement(g1, 710730, 712069);
+initializeGenomicElement(g1, 712071, 713410);
+initializeGenomicElement(g1, 713412, 714751);
+initializeGenomicElement(g1, 714753, 716092);
+initializeGenomicElement(g1, 716094, 717433);
+initializeGenomicElement(g1, 717435, 718774);
+initializeGenomicElement(g1, 718776, 720115);
+initializeGenomicElement(g1, 720117, 721456);
+initializeGenomicElement(g1, 721458, 722797);
+initializeGenomicElement(g1, 722799, 724138);
+initializeGenomicElement(g1, 724140, 725479);
+initializeGenomicElement(g1, 725481, 726820);
+initializeGenomicElement(g1, 726822, 728161);
+initializeGenomicElement(g1, 728163, 729502);
+initializeGenomicElement(g1, 729504, 730843);
+initializeGenomicElement(g1, 730845, 732184);
+initializeGenomicElement(g1, 732186, 733525);
+initializeGenomicElement(g1, 733527, 734866);
+initializeGenomicElement(g1, 734868, 736207);
+initializeGenomicElement(g1, 736209, 737548);
+initializeGenomicElement(g1, 737550, 738889);
+initializeGenomicElement(g1, 738891, 740230);
+initializeGenomicElement(g1, 740232, 741571);
+initializeGenomicElement(g1, 741573, 742912);
+initializeGenomicElement(g1, 742914, 744253);
+initializeGenomicElement(g1, 744255, 745594);
+initializeGenomicElement(g1, 745596, 746935);
+initializeGenomicElement(g1, 746937, 748276);
+initializeGenomicElement(g1, 748278, 749617);
+initializeGenomicElement(g1, 749619, 750958);
+initializeGenomicElement(g1, 750960, 752299);
+initializeGenomicElement(g1, 752301, 753640);
+initializeGenomicElement(g1, 753642, 754981);
+initializeGenomicElement(g1, 754983, 756322);
+initializeGenomicElement(g1, 756324, 757663);
+initializeGenomicElement(g1, 757665, 759004);
+initializeGenomicElement(g1, 759006, 760345);
+initializeGenomicElement(g1, 760347, 761686);
+initializeGenomicElement(g1, 761688, 763027);
+initializeGenomicElement(g1, 763029, 764368);
+initializeGenomicElement(g1, 764370, 765709);
+initializeGenomicElement(g1, 765711, 767050);
+initializeGenomicElement(g1, 767052, 768391);
+initializeGenomicElement(g1, 768393, 769732);
+initializeGenomicElement(g1, 769734, 771073);
+initializeGenomicElement(g1, 771075, 772414);
+initializeGenomicElement(g1, 772416, 773755);
+initializeGenomicElement(g1, 773757, 775096);
+initializeGenomicElement(g1, 775098, 776437);
+initializeGenomicElement(g1, 776439, 777778);
+initializeGenomicElement(g1, 777780, 779119);
+initializeGenomicElement(g1, 779121, 780460);
+initializeGenomicElement(g1, 780462, 781801);
+initializeGenomicElement(g1, 781803, 783142);
+initializeGenomicElement(g1, 783144, 784483);
+initializeGenomicElement(g1, 784485, 785824);
+initializeGenomicElement(g1, 785826, 787165);
+initializeGenomicElement(g1, 787167, 788506);
+initializeGenomicElement(g1, 788508, 789847);
+initializeGenomicElement(g1, 789849, 791188);
+initializeGenomicElement(g1, 791190, 792529);
+initializeGenomicElement(g1, 792531, 793870);
+initializeGenomicElement(g1, 793872, 795211);
+initializeGenomicElement(g1, 795213, 796552);
+initializeGenomicElement(g1, 796554, 797893);
+initializeGenomicElement(g1, 797895, 799234);
+initializeGenomicElement(g1, 799236, 800575);
+initializeGenomicElement(g1, 800577, 801916);
+initializeGenomicElement(g1, 801918, 803257);
+initializeGenomicElement(g1, 803259, 804598);
+initializeGenomicElement(g1, 804600, 805939);
+initializeGenomicElement(g1, 805941, 807280);
+initializeGenomicElement(g1, 807282, 808621);
+initializeGenomicElement(g1, 808623, 809962);
+initializeGenomicElement(g1, 809964, 811303);
+initializeGenomicElement(g1, 811305, 812644);
+initializeGenomicElement(g1, 812646, 813985);
+initializeGenomicElement(g1, 813987, 815326);
+initializeGenomicElement(g1, 815328, 816667);
+initializeGenomicElement(g1, 816669, 818008);
+initializeGenomicElement(g1, 818010, 819349);
+initializeGenomicElement(g1, 819351, 820690);
+initializeGenomicElement(g1, 820692, 822031);
+initializeGenomicElement(g1, 822033, 823372);
+initializeGenomicElement(g1, 823374, 824713);
+initializeGenomicElement(g1, 824715, 826054);
+initializeGenomicElement(g1, 826056, 827395);
+initializeGenomicElement(g1, 827397, 828736);
+initializeGenomicElement(g1, 828738, 830077);
+initializeGenomicElement(g1, 830079, 831418);
+initializeGenomicElement(g1, 831420, 832759);
+initializeGenomicElement(g1, 832761, 834100);
+initializeGenomicElement(g1, 834102, 835441);
+initializeGenomicElement(g1, 835443, 836782);
+initializeGenomicElement(g1, 836784, 838123);
+initializeGenomicElement(g1, 838125, 839464);
+initializeGenomicElement(g1, 839466, 840805);
+initializeGenomicElement(g1, 840807, 842146);
+initializeGenomicElement(g1, 842148, 843487);
+initializeGenomicElement(g1, 843489, 844828);
+initializeGenomicElement(g1, 844830, 846169);
+initializeGenomicElement(g1, 846171, 847510);
+initializeGenomicElement(g1, 847512, 848851);
+initializeGenomicElement(g1, 848853, 850192);
+initializeGenomicElement(g1, 850194, 851533);
+initializeGenomicElement(g1, 851535, 852874);
+initializeGenomicElement(g1, 852876, 854215);
+initializeGenomicElement(g1, 854217, 855556);
+initializeGenomicElement(g1, 855558, 856897);
+initializeGenomicElement(g1, 856899, 858238);
+initializeGenomicElement(g1, 858240, 859579);
+initializeGenomicElement(g1, 859581, 860920);
+initializeGenomicElement(g1, 860922, 862261);
+initializeGenomicElement(g1, 862263, 863602);
+initializeGenomicElement(g1, 863604, 864943);
+initializeGenomicElement(g1, 864945, 866284);
+initializeGenomicElement(g1, 866286, 867625);
+initializeGenomicElement(g1, 867627, 868966);
+initializeGenomicElement(g1, 868968, 870307);
+initializeGenomicElement(g1, 870309, 871648);
+initializeGenomicElement(g1, 871650, 872989);
+initializeGenomicElement(g1, 872991, 874330);
+initializeGenomicElement(g1, 874332, 875671);
+initializeGenomicElement(g1, 875673, 877012);
+initializeGenomicElement(g1, 877014, 878353);
+initializeGenomicElement(g1, 878355, 879694);
+initializeGenomicElement(g1, 879696, 881035);
+initializeGenomicElement(g1, 881037, 882376);
+initializeGenomicElement(g1, 882378, 883717);
+initializeGenomicElement(g1, 883719, 885058);
+initializeGenomicElement(g1, 885060, 886399);
+initializeGenomicElement(g1, 886401, 887740);
+initializeGenomicElement(g1, 887742, 889081);
+initializeGenomicElement(g1, 889083, 890422);
+initializeGenomicElement(g1, 890424, 891763);
+initializeGenomicElement(g1, 891765, 893104);
+initializeGenomicElement(g1, 893106, 894445);
+initializeGenomicElement(g1, 894447, 895786);
+initializeGenomicElement(g1, 895788, 897127);
+initializeGenomicElement(g1, 897129, 898468);
+initializeGenomicElement(g1, 898470, 899809);
+initializeGenomicElement(g1, 899811, 901150);
+initializeGenomicElement(g1, 901152, 902491);
+initializeGenomicElement(g1, 902493, 903832);
+initializeGenomicElement(g1, 903834, 905173);
+initializeGenomicElement(g1, 905175, 906514);
+initializeGenomicElement(g1, 906516, 907855);
+initializeGenomicElement(g1, 907857, 909196);
+initializeGenomicElement(g1, 909198, 910537);
+initializeGenomicElement(g1, 910539, 911878);
+initializeGenomicElement(g1, 911880, 913219);
+initializeGenomicElement(g1, 913221, 914560);
+initializeGenomicElement(g1, 914562, 915901);
+initializeGenomicElement(g1, 915903, 917242);
+initializeGenomicElement(g1, 917244, 918583);
+initializeGenomicElement(g1, 918585, 919924);
+initializeGenomicElement(g1, 919926, 921265);
+initializeGenomicElement(g1, 921267, 922606);
+initializeGenomicElement(g1, 922608, 923947);
+initializeGenomicElement(g1, 923949, 925288);
+initializeGenomicElement(g1, 925290, 926629);
+initializeGenomicElement(g1, 926631, 927970);
+initializeGenomicElement(g1, 927972, 929311);
+initializeGenomicElement(g1, 929313, 930652);
+initializeGenomicElement(g1, 930654, 931993);
+initializeGenomicElement(g1, 931995, 933334);
+initializeGenomicElement(g1, 933336, 934675);
+initializeGenomicElement(g1, 934677, 936016);
+initializeGenomicElement(g1, 936018, 937357);
+initializeGenomicElement(g1, 937359, 938698);
+initializeGenomicElement(g1, 938700, 940039);
+initializeGenomicElement(g1, 940041, 941380);
+initializeGenomicElement(g1, 941382, 942721);
+initializeGenomicElement(g1, 942723, 944062);
+initializeGenomicElement(g1, 944064, 945403);
+initializeGenomicElement(g1, 945405, 946744);
+initializeGenomicElement(g1, 946746, 948085);
+initializeGenomicElement(g1, 948087, 949426);
+initializeGenomicElement(g1, 949428, 950767);
+initializeGenomicElement(g1, 950769, 952108);
+initializeGenomicElement(g1, 952110, 953449);
+initializeGenomicElement(g1, 953451, 954790);
+initializeGenomicElement(g1, 954792, 956131);
+initializeGenomicElement(g1, 956133, 957472);
+initializeGenomicElement(g1, 957474, 958813);
+initializeGenomicElement(g1, 958815, 960154);
+initializeGenomicElement(g1, 960156, 961495);
+initializeGenomicElement(g1, 961497, 962836);
+initializeGenomicElement(g1, 962838, 964177);
+initializeGenomicElement(g1, 964179, 965518);
+initializeGenomicElement(g1, 965520, 966859);
+initializeGenomicElement(g1, 966861, 968200);
+initializeGenomicElement(g1, 968202, 969541);
+initializeGenomicElement(g1, 969543, 970882);
+initializeGenomicElement(g1, 970884, 972223);
+initializeGenomicElement(g1, 972225, 973564);
+initializeGenomicElement(g1, 973566, 974905);
+initializeGenomicElement(g1, 974907, 976246);
+initializeGenomicElement(g1, 976248, 977587);
+initializeGenomicElement(g1, 977589, 978928);
+initializeGenomicElement(g1, 978930, 980269);
+initializeGenomicElement(g1, 980271, 981610);
+initializeGenomicElement(g1, 981612, 982951);
+initializeGenomicElement(g1, 982953, 984292);
+initializeGenomicElement(g1, 984294, 985633);
+initializeGenomicElement(g1, 985635, 986974);
+initializeGenomicElement(g1, 986976, 988315);
+initializeGenomicElement(g1, 988317, 989656);
+initializeGenomicElement(g1, 989658, 990997);
+initializeGenomicElement(g1, 990999, 992338);
+initializeGenomicElement(g1, 992340, 993679);
+initializeGenomicElement(g1, 993681, 995020);
+initializeGenomicElement(g1, 995022, 996361);
+initializeGenomicElement(g1, 996363, 997702);
+initializeGenomicElement(g1, 997704, 999043);
+initializeGenomicElement(g1, 999045, 1000384);
+initializeGenomicElement(g1, 1000386, 1001725);
+initializeGenomicElement(g1, 1001727, 1003066);
+initializeGenomicElement(g1, 1003068, 1004407);
+initializeGenomicElement(g1, 1004409, 1005748);
+initializeGenomicElement(g1, 1005750, 1007089);
+initializeGenomicElement(g1, 1007091, 1008430);
+initializeGenomicElement(g1, 1008432, 1009771);
+initializeGenomicElement(g1, 1009773, 1011112);
+initializeGenomicElement(g1, 1011114, 1012453);
+initializeGenomicElement(g1, 1012455, 1013794);
+initializeGenomicElement(g1, 1013796, 1015135);
+initializeGenomicElement(g1, 1015137, 1016476);
+initializeGenomicElement(g1, 1016478, 1017817);
+initializeGenomicElement(g1, 1017819, 1019158);
+initializeGenomicElement(g1, 1019160, 1020499);
+initializeGenomicElement(g1, 1020501, 1021840);
+initializeGenomicElement(g1, 1021842, 1023181);
+initializeGenomicElement(g1, 1023183, 1024522);
+initializeGenomicElement(g1, 1024524, 1025863);
+initializeGenomicElement(g1, 1025865, 1027204);
+initializeGenomicElement(g1, 1027206, 1028545);
+initializeGenomicElement(g1, 1028547, 1029886);
+initializeGenomicElement(g1, 1029888, 1031227);
+initializeGenomicElement(g1, 1031229, 1032568);
+initializeGenomicElement(g1, 1032570, 1033909);
+initializeGenomicElement(g1, 1033911, 1035250);
+initializeGenomicElement(g1, 1035252, 1036591);
+initializeGenomicElement(g1, 1036593, 1037932);
+initializeGenomicElement(g1, 1037934, 1039273);
+initializeGenomicElement(g1, 1039275, 1040614);
+initializeGenomicElement(g1, 1040616, 1041955);
+initializeGenomicElement(g1, 1041957, 1043296);
+initializeGenomicElement(g1, 1043298, 1044637);
+initializeGenomicElement(g1, 1044639, 1045978);
+initializeGenomicElement(g1, 1045980, 1047319);
+initializeGenomicElement(g1, 1047321, 1048660);
+initializeGenomicElement(g1, 1048662, 1050001);
+initializeGenomicElement(g1, 1050003, 1051342);
+initializeGenomicElement(g1, 1051344, 1052683);
+initializeGenomicElement(g1, 1052685, 1054024);
+initializeGenomicElement(g1, 1054026, 1055365);
+initializeGenomicElement(g1, 1055367, 1056706);
+initializeGenomicElement(g1, 1056708, 1058047);
+initializeGenomicElement(g1, 1058049, 1059388);
+initializeGenomicElement(g1, 1059390, 1060729);
+initializeGenomicElement(g1, 1060731, 1062070);
+initializeGenomicElement(g1, 1062072, 1063411);
+initializeGenomicElement(g1, 1063413, 1064752);
+initializeGenomicElement(g1, 1064754, 1066093);
+initializeGenomicElement(g1, 1066095, 1067434);
+initializeGenomicElement(g1, 1067436, 1068775);
+initializeGenomicElement(g1, 1068777, 1070116);
+initializeGenomicElement(g1, 1070118, 1071457);
+initializeGenomicElement(g1, 1071459, 1072798);
+initializeGenomicElement(g1, 1072800, 1074139);
+initializeGenomicElement(g1, 1074141, 1075480);
+initializeGenomicElement(g1, 1075482, 1076821);
+initializeGenomicElement(g1, 1076823, 1078162);
+initializeGenomicElement(g1, 1078164, 1079503);
+initializeGenomicElement(g1, 1079505, 1080844);
+initializeGenomicElement(g1, 1080846, 1082185);
+initializeGenomicElement(g1, 1082187, 1083526);
+initializeGenomicElement(g1, 1083528, 1084867);
+initializeGenomicElement(g1, 1084869, 1086208);
+initializeGenomicElement(g1, 1086210, 1087549);
+initializeGenomicElement(g1, 1087551, 1088890);
+initializeGenomicElement(g1, 1088892, 1090231);
+initializeGenomicElement(g1, 1090233, 1091572);
+initializeGenomicElement(g1, 1091574, 1092913);
+initializeGenomicElement(g1, 1092915, 1094254);
+initializeGenomicElement(g1, 1094256, 1095595);
+initializeGenomicElement(g1, 1095597, 1096936);
+initializeGenomicElement(g1, 1096938, 1098277);
+initializeGenomicElement(g1, 1098279, 1099618);
+initializeGenomicElement(g1, 1099620, 1100959);
+initializeGenomicElement(g1, 1100961, 1102300);
+initializeGenomicElement(g1, 1102302, 1103641);
+initializeGenomicElement(g1, 1103643, 1104982);
+initializeGenomicElement(g1, 1104984, 1106323);
+initializeGenomicElement(g1, 1106325, 1107664);
+initializeGenomicElement(g1, 1107666, 1109005);
+initializeGenomicElement(g1, 1109007, 1110346);
+initializeGenomicElement(g1, 1110348, 1111687);
+initializeGenomicElement(g1, 1111689, 1113028);
+initializeGenomicElement(g1, 1113030, 1114369);
+initializeGenomicElement(g1, 1114371, 1115710);
+initializeGenomicElement(g1, 1115712, 1117051);
+initializeGenomicElement(g1, 1117053, 1118392);
+initializeGenomicElement(g1, 1118394, 1119733);
+initializeGenomicElement(g1, 1119735, 1121074);
+initializeGenomicElement(g1, 1121076, 1122415);
+initializeGenomicElement(g1, 1122417, 1123756);
+initializeGenomicElement(g1, 1123758, 1125097);
+initializeGenomicElement(g1, 1125099, 1126438);
+initializeGenomicElement(g1, 1126440, 1127779);
+initializeGenomicElement(g1, 1127781, 1129120);
+initializeGenomicElement(g1, 1129122, 1130461);
+initializeGenomicElement(g1, 1130463, 1131802);
+initializeGenomicElement(g1, 1131804, 1133143);
+initializeGenomicElement(g1, 1133145, 1134484);
+initializeGenomicElement(g1, 1134486, 1135825);
+initializeGenomicElement(g1, 1135827, 1137166);
+initializeGenomicElement(g1, 1137168, 1138507);
+initializeGenomicElement(g1, 1138509, 1139848);
+initializeGenomicElement(g1, 1139850, 1141189);
+initializeGenomicElement(g1, 1141191, 1142530);
+initializeGenomicElement(g1, 1142532, 1143871);
+initializeGenomicElement(g1, 1143873, 1145212);
+initializeGenomicElement(g1, 1145214, 1146553);
+initializeGenomicElement(g1, 1146555, 1147894);
+initializeGenomicElement(g1, 1147896, 1149235);
+initializeGenomicElement(g1, 1149237, 1150576);
+initializeGenomicElement(g1, 1150578, 1151917);
+initializeGenomicElement(g1, 1151919, 1153258);
+initializeGenomicElement(g1, 1153260, 1154599);
+initializeGenomicElement(g1, 1154601, 1155940);
+initializeGenomicElement(g1, 1155942, 1157281);
+initializeGenomicElement(g1, 1157283, 1158622);
+initializeGenomicElement(g1, 1158624, 1159963);
+initializeGenomicElement(g1, 1159965, 1161304);
+initializeGenomicElement(g1, 1161306, 1162645);
+initializeGenomicElement(g1, 1162647, 1163986);
+initializeGenomicElement(g1, 1163988, 1165327);
+initializeGenomicElement(g1, 1165329, 1166668);
+initializeGenomicElement(g1, 1166670, 1168009);
+initializeGenomicElement(g1, 1168011, 1169350);
+initializeGenomicElement(g1, 1169352, 1170691);
+initializeGenomicElement(g1, 1170693, 1172032);
+initializeGenomicElement(g1, 1172034, 1173373);
+initializeGenomicElement(g1, 1173375, 1174714);
+initializeGenomicElement(g1, 1174716, 1176055);
+initializeGenomicElement(g1, 1176057, 1177396);
+initializeGenomicElement(g1, 1177398, 1178737);
+initializeGenomicElement(g1, 1178739, 1180078);
+initializeGenomicElement(g1, 1180080, 1181419);
+initializeGenomicElement(g1, 1181421, 1182760);
+initializeGenomicElement(g1, 1182762, 1184101);
+initializeGenomicElement(g1, 1184103, 1185442);
+initializeGenomicElement(g1, 1185444, 1186783);
+initializeGenomicElement(g1, 1186785, 1188124);
+initializeGenomicElement(g1, 1188126, 1189465);
+initializeGenomicElement(g1, 1189467, 1190806);
+initializeGenomicElement(g1, 1190808, 1192147);
+initializeGenomicElement(g1, 1192149, 1193488);
+initializeGenomicElement(g1, 1193490, 1194829);
+initializeGenomicElement(g1, 1194831, 1196170);
+initializeGenomicElement(g1, 1196172, 1197511);
+initializeGenomicElement(g1, 1197513, 1198852);
+initializeGenomicElement(g1, 1198854, 1200193);
+initializeGenomicElement(g1, 1200195, 1201534);
+initializeGenomicElement(g1, 1201536, 1202875);
+initializeGenomicElement(g1, 1202877, 1204216);
+initializeGenomicElement(g1, 1204218, 1205557);
+initializeGenomicElement(g1, 1205559, 1206898);
+initializeGenomicElement(g1, 1206900, 1208239);
+initializeGenomicElement(g1, 1208241, 1209580);
+initializeGenomicElement(g1, 1209582, 1210921);
+initializeGenomicElement(g1, 1210923, 1212262);
+initializeGenomicElement(g1, 1212264, 1213603);
+initializeGenomicElement(g1, 1213605, 1214944);
+initializeGenomicElement(g1, 1214946, 1216285);
+initializeGenomicElement(g1, 1216287, 1217626);
+initializeGenomicElement(g1, 1217628, 1218967);
+initializeGenomicElement(g1, 1218969, 1220308);
+initializeGenomicElement(g1, 1220310, 1221649);
+initializeGenomicElement(g1, 1221651, 1222990);
+initializeGenomicElement(g1, 1222992, 1224331);
+initializeGenomicElement(g1, 1224333, 1225672);
+initializeGenomicElement(g1, 1225674, 1227013);
+initializeGenomicElement(g1, 1227015, 1228354);
+initializeGenomicElement(g1, 1228356, 1229695);
+initializeGenomicElement(g1, 1229697, 1231036);
+initializeGenomicElement(g1, 1231038, 1232377);
+initializeGenomicElement(g1, 1232379, 1233718);
+initializeGenomicElement(g1, 1233720, 1235059);
+initializeGenomicElement(g1, 1235061, 1236400);
+initializeGenomicElement(g1, 1236402, 1237741);
+initializeGenomicElement(g1, 1237743, 1239082);
+initializeGenomicElement(g1, 1239084, 1240423);
+initializeGenomicElement(g1, 1240425, 1241764);
+initializeGenomicElement(g1, 1241766, 1243105);
+initializeGenomicElement(g1, 1243107, 1244446);
+initializeGenomicElement(g1, 1244448, 1245787);
+initializeGenomicElement(g1, 1245789, 1247128);
+initializeGenomicElement(g1, 1247130, 1248469);
+initializeGenomicElement(g1, 1248471, 1249810);
+initializeGenomicElement(g1, 1249812, 1251151);
+initializeGenomicElement(g1, 1251153, 1252492);
+initializeGenomicElement(g1, 1252494, 1253833);
+initializeGenomicElement(g1, 1253835, 1255174);
+initializeGenomicElement(g1, 1255176, 1256515);
+initializeGenomicElement(g1, 1256517, 1257856);
+initializeGenomicElement(g1, 1257858, 1259197);
+initializeGenomicElement(g1, 1259199, 1260538);
+initializeGenomicElement(g1, 1260540, 1261879);
+initializeGenomicElement(g1, 1261881, 1263220);
+initializeGenomicElement(g1, 1263222, 1264561);
+initializeGenomicElement(g1, 1264563, 1265902);
+initializeGenomicElement(g1, 1265904, 1267243);
+initializeGenomicElement(g1, 1267245, 1268584);
+initializeGenomicElement(g1, 1268586, 1269925);
+initializeGenomicElement(g1, 1269927, 1271266);
+initializeGenomicElement(g1, 1271268, 1272607);
+initializeGenomicElement(g1, 1272609, 1273948);
+initializeGenomicElement(g1, 1273950, 1275289);
+initializeGenomicElement(g1, 1275291, 1276630);
+initializeGenomicElement(g1, 1276632, 1277971);
+initializeGenomicElement(g1, 1277973, 1279312);
+initializeGenomicElement(g1, 1279314, 1280653);
+initializeGenomicElement(g1, 1280655, 1281994);
+initializeGenomicElement(g1, 1281996, 1283335);
+initializeGenomicElement(g1, 1283337, 1284676);
+initializeGenomicElement(g1, 1284678, 1286017);
+initializeGenomicElement(g1, 1286019, 1287358);
+initializeGenomicElement(g1, 1287360, 1288699);
+initializeGenomicElement(g1, 1288701, 1290040);
+initializeGenomicElement(g1, 1290042, 1291381);
+initializeGenomicElement(g1, 1291383, 1292722);
+initializeGenomicElement(g1, 1292724, 1294063);
+initializeGenomicElement(g1, 1294065, 1295404);
+initializeGenomicElement(g1, 1295406, 1296745);
+initializeGenomicElement(g1, 1296747, 1298086);
+initializeGenomicElement(g1, 1298088, 1299427);
+initializeGenomicElement(g1, 1299429, 1300768);
+initializeGenomicElement(g1, 1300770, 1302109);
+initializeGenomicElement(g1, 1302111, 1303450);
+initializeGenomicElement(g1, 1303452, 1304791);
+initializeGenomicElement(g1, 1304793, 1306132);
+initializeGenomicElement(g1, 1306134, 1307473);
+initializeGenomicElement(g1, 1307475, 1308814);
+initializeGenomicElement(g1, 1308816, 1310155);
+initializeGenomicElement(g1, 1310157, 1311496);
+initializeGenomicElement(g1, 1311498, 1312837);
+initializeGenomicElement(g1, 1312839, 1314178);
+initializeGenomicElement(g1, 1314180, 1315519);
+initializeGenomicElement(g1, 1315521, 1316860);
+initializeGenomicElement(g1, 1316862, 1318201);
+initializeGenomicElement(g1, 1318203, 1319542);
+initializeGenomicElement(g1, 1319544, 1320883);
+initializeGenomicElement(g1, 1320885, 1322224);
+initializeGenomicElement(g1, 1322226, 1323565);
+initializeGenomicElement(g1, 1323567, 1324906);
+initializeGenomicElement(g1, 1324908, 1326247);
+initializeGenomicElement(g1, 1326249, 1327588);
+initializeGenomicElement(g1, 1327590, 1328929);
+initializeGenomicElement(g1, 1328931, 1330270);
+initializeGenomicElement(g1, 1330272, 1331611);
+initializeGenomicElement(g1, 1331613, 1332952);
+initializeGenomicElement(g1, 1332954, 1334293);
+initializeGenomicElement(g1, 1334295, 1335634);
+initializeGenomicElement(g1, 1335636, 1336975);
+initializeGenomicElement(g1, 1336977, 1338316);
+initializeGenomicElement(g1, 1338318, 1339657);
+initializeGenomicElement(g1, 1339659, 1340998);
+initializeGenomicElement(g1, 1341000, 1342339);
+initializeGenomicElement(g1, 1342341, 1343680);
+initializeGenomicElement(g1, 1343682, 1345021);
+initializeGenomicElement(g1, 1345023, 1346362);
+initializeGenomicElement(g1, 1346364, 1347703);
+initializeGenomicElement(g1, 1347705, 1349044);
+initializeGenomicElement(g1, 1349046, 1350385);
+initializeGenomicElement(g1, 1350387, 1351726);
+initializeGenomicElement(g1, 1351728, 1353067);
+initializeGenomicElement(g1, 1353069, 1354408);
+initializeGenomicElement(g1, 1354410, 1355749);
+initializeGenomicElement(g1, 1355751, 1357090);
+initializeGenomicElement(g1, 1357092, 1358431);
+initializeGenomicElement(g1, 1358433, 1359772);
+initializeGenomicElement(g1, 1359774, 1361113);
+initializeGenomicElement(g1, 1361115, 1362454);
+initializeGenomicElement(g1, 1362456, 1363795);
+initializeGenomicElement(g1, 1363797, 1365136);
+initializeGenomicElement(g1, 1365138, 1366477);
+initializeGenomicElement(g1, 1366479, 1367818);
+initializeGenomicElement(g1, 1367820, 1369159);
+initializeGenomicElement(g1, 1369161, 1370500);
+initializeGenomicElement(g1, 1370502, 1371841);
+initializeGenomicElement(g1, 1371843, 1373182);
+initializeGenomicElement(g1, 1373184, 1374523);
+initializeGenomicElement(g1, 1374525, 1375864);
+initializeGenomicElement(g1, 1375866, 1377205);
+initializeGenomicElement(g1, 1377207, 1378546);
+initializeGenomicElement(g1, 1378548, 1379887);
+initializeGenomicElement(g1, 1379889, 1381228);
+initializeGenomicElement(g1, 1381230, 1382569);
+initializeGenomicElement(g1, 1382571, 1383910);
+initializeGenomicElement(g1, 1383912, 1385251);
+initializeGenomicElement(g1, 1385253, 1386592);
+initializeGenomicElement(g1, 1386594, 1387933);
+initializeGenomicElement(g1, 1387935, 1389274);
+initializeGenomicElement(g1, 1389276, 1390615);
+initializeGenomicElement(g1, 1390617, 1391956);
+initializeGenomicElement(g1, 1391958, 1393297);
+initializeGenomicElement(g1, 1393299, 1394638);
+initializeGenomicElement(g1, 1394640, 1395979);
+initializeGenomicElement(g1, 1395981, 1397320);
+initializeGenomicElement(g1, 1397322, 1398661);
+initializeGenomicElement(g1, 1398663, 1400002);
+initializeGenomicElement(g1, 1400004, 1401343);
+initializeGenomicElement(g1, 1401345, 1402684);
+initializeGenomicElement(g1, 1402686, 1404025);
+initializeGenomicElement(g1, 1404027, 1405366);
+initializeGenomicElement(g1, 1405368, 1406707);
+initializeGenomicElement(g1, 1406709, 1408048);
+initializeGenomicElement(g1, 1408050, 1409389);
+initializeGenomicElement(g1, 1409391, 1410730);
+initializeGenomicElement(g1, 1410732, 1412071);
+initializeGenomicElement(g1, 1412073, 1413412);
+initializeGenomicElement(g1, 1413414, 1414753);
+initializeGenomicElement(g1, 1414755, 1416094);
+initializeGenomicElement(g1, 1416096, 1417435);
+initializeGenomicElement(g1, 1417437, 1418776);
+initializeGenomicElement(g1, 1418778, 1420117);
+initializeGenomicElement(g1, 1420119, 1421458);
+initializeGenomicElement(g1, 1421460, 1422799);
+initializeGenomicElement(g1, 1422801, 1424140);
+initializeGenomicElement(g1, 1424142, 1425481);
+initializeGenomicElement(g1, 1425483, 1426822);
+initializeGenomicElement(g1, 1426824, 1428163);
+initializeGenomicElement(g1, 1428165, 1429504);
+initializeGenomicElement(g1, 1429506, 1430845);
+initializeGenomicElement(g1, 1430847, 1432186);
+initializeGenomicElement(g1, 1432188, 1433527);
+initializeGenomicElement(g1, 1433529, 1434868);
+initializeGenomicElement(g1, 1434870, 1436209);
+initializeGenomicElement(g1, 1436211, 1437550);
+initializeGenomicElement(g1, 1437552, 1438891);
+initializeGenomicElement(g1, 1438893, 1440232);
+initializeGenomicElement(g1, 1440234, 1441573);
+initializeGenomicElement(g1, 1441575, 1442914);
+initializeGenomicElement(g1, 1442916, 1444255);
+initializeGenomicElement(g1, 1444257, 1445596);
+initializeGenomicElement(g1, 1445598, 1446937);
+initializeGenomicElement(g1, 1446939, 1448278);
+initializeGenomicElement(g1, 1448280, 1449619);
+initializeGenomicElement(g1, 1449621, 1450960);
+initializeGenomicElement(g1, 1450962, 1452301);
+initializeGenomicElement(g1, 1452303, 1453642);
+initializeGenomicElement(g1, 1453644, 1454983);
+initializeGenomicElement(g1, 1454985, 1456324);
+initializeGenomicElement(g1, 1456326, 1457665);
+initializeGenomicElement(g1, 1457667, 1459006);
+initializeGenomicElement(g1, 1459008, 1460347);
+initializeGenomicElement(g1, 1460349, 1461688);
+initializeGenomicElement(g1, 1461690, 1463029);
+initializeGenomicElement(g1, 1463031, 1464370);
+initializeGenomicElement(g1, 1464372, 1465711);
+initializeGenomicElement(g1, 1465713, 1467052);
+initializeGenomicElement(g1, 1467054, 1468393);
+initializeGenomicElement(g1, 1468395, 1469734);
+initializeGenomicElement(g1, 1469736, 1471075);
+initializeGenomicElement(g1, 1471077, 1472416);
+initializeGenomicElement(g1, 1472418, 1473757);
+initializeGenomicElement(g1, 1473759, 1475098);
+initializeGenomicElement(g1, 1475100, 1476439);
+initializeGenomicElement(g1, 1476441, 1477780);
+initializeGenomicElement(g1, 1477782, 1479121);
+initializeGenomicElement(g1, 1479123, 1480462);
+initializeGenomicElement(g1, 1480464, 1481803);
+initializeGenomicElement(g1, 1481805, 1483144);
+initializeGenomicElement(g1, 1483146, 1484485);
+initializeGenomicElement(g1, 1484487, 1485826);
+initializeGenomicElement(g1, 1485828, 1487167);
+initializeGenomicElement(g1, 1487169, 1488508);
+initializeGenomicElement(g1, 1488510, 1489849);
+initializeGenomicElement(g1, 1489851, 1491190);
+initializeGenomicElement(g1, 1491192, 1492531);
+initializeGenomicElement(g1, 1492533, 1493872);
+initializeGenomicElement(g1, 1493874, 1495213);
+initializeGenomicElement(g1, 1495215, 1496554);
+initializeGenomicElement(g1, 1496556, 1497895);
+initializeGenomicElement(g1, 1497897, 1499236);
+initializeGenomicElement(g1, 1499238, 1500577);
+initializeGenomicElement(g1, 1500579, 1501918);
+initializeGenomicElement(g1, 1501920, 1503259);
+initializeGenomicElement(g1, 1503261, 1504600);
+initializeGenomicElement(g1, 1504602, 1505941);
+initializeGenomicElement(g1, 1505943, 1507282);
+initializeGenomicElement(g1, 1507284, 1508623);
+initializeGenomicElement(g1, 1508625, 1509964);
+initializeGenomicElement(g1, 1509966, 1511305);
+initializeGenomicElement(g1, 1511307, 1512646);
+initializeGenomicElement(g1, 1512648, 1513987);
+initializeGenomicElement(g1, 1513989, 1515328);
+initializeGenomicElement(g1, 1515330, 1516669);
+initializeGenomicElement(g1, 1516671, 1518010);
+initializeGenomicElement(g1, 1518012, 1519351);
+initializeGenomicElement(g1, 1519353, 1520692);
+initializeGenomicElement(g1, 1520694, 1522033);
+initializeGenomicElement(g1, 1522035, 1523374);
+initializeGenomicElement(g1, 1523376, 1524715);
+initializeGenomicElement(g1, 1524717, 1526056);
+initializeGenomicElement(g1, 1526058, 1527397);
+initializeGenomicElement(g1, 1527399, 1528738);
+initializeGenomicElement(g1, 1528740, 1530079);
+initializeGenomicElement(g1, 1530081, 1531420);
+initializeGenomicElement(g1, 1531422, 1532761);
+initializeGenomicElement(g1, 1532763, 1534102);
+initializeGenomicElement(g1, 1534104, 1535443);
+initializeGenomicElement(g1, 1535445, 1536784);
+initializeGenomicElement(g1, 1536786, 1538125);
+initializeGenomicElement(g1, 1538127, 1539466);
+initializeGenomicElement(g1, 1539468, 1540807);
+initializeGenomicElement(g1, 1540809, 1542148);
+initializeGenomicElement(g1, 1542150, 1543489);
+initializeGenomicElement(g1, 1543491, 1544830);
+initializeGenomicElement(g1, 1544832, 1546171);
+initializeGenomicElement(g1, 1546173, 1547512);
+initializeGenomicElement(g1, 1547514, 1548853);
+initializeGenomicElement(g1, 1548855, 1550194);
+initializeGenomicElement(g1, 1550196, 1551535);
+initializeGenomicElement(g1, 1551537, 1552876);
+initializeGenomicElement(g1, 1552878, 1554217);
+initializeGenomicElement(g1, 1554219, 1555558);
+initializeGenomicElement(g1, 1555560, 1556899);
+initializeGenomicElement(g1, 1556901, 1558240);
+initializeGenomicElement(g1, 1558242, 1559581);
+initializeGenomicElement(g1, 1559583, 1560922);
+initializeGenomicElement(g1, 1560924, 1562263);
+initializeGenomicElement(g1, 1562265, 1563604);
+initializeGenomicElement(g1, 1563606, 1564945);
+initializeGenomicElement(g1, 1564947, 1566286);
+initializeGenomicElement(g1, 1566288, 1567627);
+initializeGenomicElement(g1, 1567629, 1568968);
+initializeGenomicElement(g1, 1568970, 1570309);
+initializeGenomicElement(g1, 1570311, 1571650);
+initializeGenomicElement(g1, 1571652, 1572991);
+initializeGenomicElement(g1, 1572993, 1574332);
+initializeGenomicElement(g1, 1574334, 1575673);
+initializeGenomicElement(g1, 1575675, 1577014);
+initializeGenomicElement(g1, 1577016, 1578355);
+initializeGenomicElement(g1, 1578357, 1579696);
+initializeGenomicElement(g1, 1579698, 1581037);
+initializeGenomicElement(g1, 1581039, 1582378);
+initializeGenomicElement(g1, 1582380, 1583719);
+initializeGenomicElement(g1, 1583721, 1585060);
+initializeGenomicElement(g1, 1585062, 1586401);
+initializeGenomicElement(g1, 1586403, 1587742);
+initializeGenomicElement(g1, 1587744, 1589083);
+initializeGenomicElement(g1, 1589085, 1590424);
+initializeGenomicElement(g1, 1590426, 1591765);
+initializeGenomicElement(g1, 1591767, 1593106);
+initializeGenomicElement(g1, 1593108, 1594447);
+initializeGenomicElement(g1, 1594449, 1595788);
+initializeGenomicElement(g1, 1595790, 1597129);
+initializeGenomicElement(g1, 1597131, 1598470);
+initializeGenomicElement(g1, 1598472, 1599811);
+initializeGenomicElement(g1, 1599813, 1601152);
+initializeGenomicElement(g1, 1601154, 1602493);
+initializeGenomicElement(g1, 1602495, 1603834);
+initializeGenomicElement(g1, 1603836, 1605175);
+initializeGenomicElement(g1, 1605177, 1606516);
+initializeGenomicElement(g1, 1606518, 1607857);
+initializeGenomicElement(g1, 1607859, 1609198);
+initializeGenomicElement(g1, 1609200, 1610539);
+initializeGenomicElement(g1, 1610541, 1611880);
+initializeGenomicElement(g1, 1611882, 1613221);
+initializeGenomicElement(g1, 1613223, 1614562);
+initializeGenomicElement(g1, 1614564, 1615903);
+initializeGenomicElement(g1, 1615905, 1617244);
+initializeGenomicElement(g1, 1617246, 1618585);
+initializeGenomicElement(g1, 1618587, 1619926);
+initializeGenomicElement(g1, 1619928, 1621267);
+initializeGenomicElement(g1, 1621269, 1622608);
+initializeGenomicElement(g1, 1622610, 1623949);
+initializeGenomicElement(g1, 1623951, 1625290);
+initializeGenomicElement(g1, 1625292, 1626631);
+initializeGenomicElement(g1, 1626633, 1627972);
+initializeGenomicElement(g1, 1627974, 1629313);
+initializeGenomicElement(g1, 1629315, 1630654);
+initializeGenomicElement(g1, 1630656, 1631995);
+initializeGenomicElement(g1, 1631997, 1633336);
+initializeGenomicElement(g1, 1633338, 1634677);
+initializeGenomicElement(g1, 1634679, 1636018);
+initializeGenomicElement(g1, 1636020, 1637359);
+initializeGenomicElement(g1, 1637361, 1638700);
+initializeGenomicElement(g1, 1638702, 1640041);
+initializeGenomicElement(g1, 1640043, 1641382);
+initializeGenomicElement(g1, 1641384, 1642723);
+initializeGenomicElement(g1, 1642725, 1644064);
+initializeGenomicElement(g1, 1644066, 1645405);
+initializeGenomicElement(g1, 1645407, 1646746);
+initializeGenomicElement(g1, 1646748, 1648087);
+initializeGenomicElement(g1, 1648089, 1649428);
+initializeGenomicElement(g1, 1649430, 1650769);
+initializeGenomicElement(g1, 1650771, 1652110);
+initializeGenomicElement(g1, 1652112, 1653451);
+initializeGenomicElement(g1, 1653453, 1654792);
+initializeGenomicElement(g1, 1654794, 1656133);
+initializeGenomicElement(g1, 1656135, 1657474);
+initializeGenomicElement(g1, 1657476, 1658815);
+initializeGenomicElement(g1, 1658817, 1660156);
+initializeGenomicElement(g1, 1660158, 1661497);
+initializeGenomicElement(g1, 1661499, 1662838);
+initializeGenomicElement(g1, 1662840, 1664179);
+initializeGenomicElement(g1, 1664181, 1665520);
+initializeGenomicElement(g1, 1665522, 1666861);
+initializeGenomicElement(g1, 1666863, 1668202);
+initializeGenomicElement(g1, 1668204, 1669543);
+initializeGenomicElement(g1, 1669545, 1670884);
+initializeGenomicElement(g1, 1670886, 1672225);
+initializeGenomicElement(g1, 1672227, 1673566);
+initializeGenomicElement(g1, 1673568, 1674907);
+initializeGenomicElement(g1, 1674909, 1676248);
+initializeGenomicElement(g1, 1676250, 1677589);
+initializeGenomicElement(g1, 1677591, 1678930);
+initializeGenomicElement(g1, 1678932, 1680271);
+initializeGenomicElement(g1, 1680273, 1681612);
+initializeGenomicElement(g1, 1681614, 1682953);
+initializeGenomicElement(g1, 1682955, 1684294);
+initializeGenomicElement(g1, 1684296, 1685635);
+initializeGenomicElement(g1, 1685637, 1686976);
+initializeGenomicElement(g1, 1686978, 1688317);
+initializeGenomicElement(g1, 1688319, 1689658);
+initializeGenomicElement(g1, 1689660, 1690999);
+initializeGenomicElement(g1, 1691001, 1692340);
+initializeGenomicElement(g1, 1692342, 1693681);
+initializeGenomicElement(g1, 1693683, 1695022);
+initializeGenomicElement(g1, 1695024, 1696363);
+initializeGenomicElement(g1, 1696365, 1697704);
+initializeGenomicElement(g1, 1697706, 1699045);
+initializeGenomicElement(g1, 1699047, 1700386);
+initializeGenomicElement(g1, 1700388, 1701727);
+initializeGenomicElement(g1, 1701729, 1703068);
+initializeGenomicElement(g1, 1703070, 1704409);
+initializeGenomicElement(g1, 1704411, 1705750);
+initializeGenomicElement(g1, 1705752, 1707091);
+initializeGenomicElement(g1, 1707093, 1708432);
+initializeGenomicElement(g1, 1708434, 1709773);
+initializeGenomicElement(g1, 1709775, 1711114);
+initializeGenomicElement(g1, 1711116, 1712455);
+initializeGenomicElement(g1, 1712457, 1713796);
+initializeGenomicElement(g1, 1713798, 1715137);
+initializeGenomicElement(g1, 1715139, 1716478);
+initializeGenomicElement(g1, 1716480, 1717819);
+initializeGenomicElement(g1, 1717821, 1719160);
+initializeGenomicElement(g1, 1719162, 1720501);
+initializeGenomicElement(g1, 1720503, 1721842);
+initializeGenomicElement(g1, 1721844, 1723183);
+initializeGenomicElement(g1, 1723185, 1724524);
+initializeGenomicElement(g1, 1724526, 1725865);
+initializeGenomicElement(g1, 1725867, 1727206);
+initializeGenomicElement(g1, 1727208, 1728547);
+initializeGenomicElement(g1, 1728549, 1729888);
+initializeGenomicElement(g1, 1729890, 1731229);
+initializeGenomicElement(g1, 1731231, 1732570);
+initializeGenomicElement(g1, 1732572, 1733911);
+initializeGenomicElement(g1, 1733913, 1735252);
+initializeGenomicElement(g1, 1735254, 1736593);
+initializeGenomicElement(g1, 1736595, 1737934);
+initializeGenomicElement(g1, 1737936, 1739275);
+initializeGenomicElement(g1, 1739277, 1740616);
+initializeGenomicElement(g1, 1740618, 1741957);
+initializeGenomicElement(g1, 1741959, 1743298);
+initializeGenomicElement(g1, 1743300, 1744639);
+initializeGenomicElement(g1, 1744641, 1745980);
+initializeGenomicElement(g1, 1745982, 1747321);
+initializeGenomicElement(g1, 1747323, 1748662);
+initializeGenomicElement(g1, 1748664, 1750003);
+initializeGenomicElement(g1, 1750005, 1751344);
+initializeGenomicElement(g1, 1751346, 1752685);
+initializeGenomicElement(g1, 1752687, 1754026);
+initializeGenomicElement(g1, 1754028, 1755367);
+initializeGenomicElement(g1, 1755369, 1756708);
+initializeGenomicElement(g1, 1756710, 1758049);
+initializeGenomicElement(g1, 1758051, 1759390);
+initializeGenomicElement(g1, 1759392, 1760731);
+initializeGenomicElement(g1, 1760733, 1762072);
+initializeGenomicElement(g1, 1762074, 1763413);
+initializeGenomicElement(g1, 1763415, 1764754);
+initializeGenomicElement(g1, 1764756, 1766095);
+initializeGenomicElement(g1, 1766097, 1767436);
+initializeGenomicElement(g1, 1767438, 1768777);
+initializeGenomicElement(g1, 1768779, 1770118);
+initializeGenomicElement(g1, 1770120, 1771459);
+initializeGenomicElement(g1, 1771461, 1772800);
+initializeGenomicElement(g1, 1772802, 1774141);
+initializeGenomicElement(g1, 1774143, 1775482);
+initializeGenomicElement(g1, 1775484, 1776823);
+initializeGenomicElement(g1, 1776825, 1778164);
+initializeGenomicElement(g1, 1778166, 1779505);
+initializeGenomicElement(g1, 1779507, 1780846);
+initializeGenomicElement(g1, 1780848, 1782187);
+initializeGenomicElement(g1, 1782189, 1783528);
+initializeGenomicElement(g1, 1783530, 1784869);
+initializeGenomicElement(g1, 1784871, 1786210);
+initializeGenomicElement(g1, 1786212, 1787551);
+initializeGenomicElement(g1, 1787553, 1788892);
+initializeGenomicElement(g1, 1788894, 1790233);
+initializeGenomicElement(g1, 1790235, 1791574);
+initializeGenomicElement(g1, 1791576, 1792915);
+initializeGenomicElement(g1, 1792917, 1794256);
+initializeGenomicElement(g1, 1794258, 1795597);
+initializeGenomicElement(g1, 1795599, 1796938);
+initializeGenomicElement(g1, 1796940, 1798279);
+initializeGenomicElement(g1, 1798281, 1799620);
+initializeGenomicElement(g1, 1799622, 1800961);
+initializeGenomicElement(g1, 1800963, 1802302);
+initializeGenomicElement(g1, 1802304, 1803643);
+initializeGenomicElement(g1, 1803645, 1804984);
+initializeGenomicElement(g1, 1804986, 1806325);
+initializeGenomicElement(g1, 1806327, 1807666);
+initializeGenomicElement(g1, 1807668, 1809007);
+initializeGenomicElement(g1, 1809009, 1810348);
+initializeGenomicElement(g1, 1810350, 1811689);
+initializeGenomicElement(g1, 1811691, 1813030);
+initializeGenomicElement(g1, 1813032, 1814371);
+initializeGenomicElement(g1, 1814373, 1815712);
+initializeGenomicElement(g1, 1815714, 1817053);
+initializeGenomicElement(g1, 1817055, 1818394);
+initializeGenomicElement(g1, 1818396, 1819735);
+initializeGenomicElement(g1, 1819737, 1821076);
+initializeGenomicElement(g1, 1821078, 1822417);
+initializeGenomicElement(g1, 1822419, 1823758);
+initializeGenomicElement(g1, 1823760, 1825099);
+initializeGenomicElement(g1, 1825101, 1826440);
+initializeGenomicElement(g1, 1826442, 1827781);
+initializeGenomicElement(g1, 1827783, 1829122);
+initializeGenomicElement(g1, 1829124, 1830463);
+initializeGenomicElement(g1, 1830465, 1831804);
+initializeGenomicElement(g1, 1831806, 1833145);
+initializeGenomicElement(g1, 1833147, 1834486);
+initializeGenomicElement(g1, 1834488, 1835827);
+initializeGenomicElement(g1, 1835829, 1837168);
+initializeGenomicElement(g1, 1837170, 1838509);
+initializeGenomicElement(g1, 1838511, 1839850);
+initializeGenomicElement(g1, 1839852, 1841191);
+initializeGenomicElement(g1, 1841193, 1842532);
+initializeGenomicElement(g1, 1842534, 1843873);
+initializeGenomicElement(g1, 1843875, 1845214);
+initializeGenomicElement(g1, 1845216, 1846555);
+initializeGenomicElement(g1, 1846557, 1847896);
+initializeGenomicElement(g1, 1847898, 1849237);
+initializeGenomicElement(g1, 1849239, 1850578);
+initializeGenomicElement(g1, 1850580, 1851919);
+initializeGenomicElement(g1, 1851921, 1853260);
+initializeGenomicElement(g1, 1853262, 1854601);
+initializeGenomicElement(g1, 1854603, 1855942);
+initializeGenomicElement(g1, 1855944, 1857283);
+initializeGenomicElement(g1, 1857285, 1858624);
+initializeGenomicElement(g1, 1858626, 1859965);
+initializeGenomicElement(g1, 1859967, 1861306);
+initializeGenomicElement(g1, 1861308, 1862647);
+initializeGenomicElement(g1, 1862649, 1863988);
+initializeGenomicElement(g1, 1863990, 1865329);
+initializeGenomicElement(g1, 1865331, 1866670);
+initializeGenomicElement(g1, 1866672, 1868011);
+initializeGenomicElement(g1, 1868013, 1869352);
+initializeGenomicElement(g1, 1869354, 1870693);
+initializeGenomicElement(g1, 1870695, 1872034);
+initializeGenomicElement(g1, 1872036, 1873375);
+initializeGenomicElement(g1, 1873377, 1874716);
+initializeGenomicElement(g1, 1874718, 1876057);
+initializeGenomicElement(g1, 1876059, 1877398);
+initializeGenomicElement(g1, 1877400, 1878739);
+initializeGenomicElement(g1, 1878741, 1880080);
+initializeGenomicElement(g1, 1880082, 1881421);
+initializeGenomicElement(g1, 1881423, 1882762);
+initializeGenomicElement(g1, 1882764, 1884103);
+initializeGenomicElement(g1, 1884105, 1885444);
+initializeGenomicElement(g1, 1885446, 1886785);
+initializeGenomicElement(g1, 1886787, 1888126);
+initializeGenomicElement(g1, 1888128, 1889467);
+initializeGenomicElement(g1, 1889469, 1890808);
+initializeGenomicElement(g1, 1890810, 1892149);
+initializeGenomicElement(g1, 1892151, 1893490);
+initializeGenomicElement(g1, 1893492, 1894831);
+initializeGenomicElement(g1, 1894833, 1896172);
+initializeGenomicElement(g1, 1896174, 1897513);
+initializeGenomicElement(g1, 1897515, 1898854);
+initializeGenomicElement(g1, 1898856, 1900195);
+initializeGenomicElement(g1, 1900197, 1901536);
+initializeGenomicElement(g1, 1901538, 1902877);
+initializeGenomicElement(g1, 1902879, 1904218);
+initializeGenomicElement(g1, 1904220, 1905559);
+initializeGenomicElement(g1, 1905561, 1906900);
+initializeGenomicElement(g1, 1906902, 1908241);
+initializeGenomicElement(g1, 1908243, 1909582);
+initializeGenomicElement(g1, 1909584, 1910923);
+initializeGenomicElement(g1, 1910925, 1912264);
+initializeGenomicElement(g1, 1912266, 1913605);
+initializeGenomicElement(g1, 1913607, 1914946);
+initializeGenomicElement(g1, 1914948, 1916287);
+initializeGenomicElement(g1, 1916289, 1917628);
+initializeGenomicElement(g1, 1917630, 1918969);
+initializeGenomicElement(g1, 1918971, 1920310);
+initializeGenomicElement(g1, 1920312, 1921651);
+initializeGenomicElement(g1, 1921653, 1922992);
+initializeGenomicElement(g1, 1922994, 1924333);
+initializeGenomicElement(g1, 1924335, 1925674);
+initializeGenomicElement(g1, 1925676, 1927015);
+initializeGenomicElement(g1, 1927017, 1928356);
+initializeGenomicElement(g1, 1928358, 1929697);
+initializeGenomicElement(g1, 1929699, 1931038);
+initializeGenomicElement(g1, 1931040, 1932379);
+initializeGenomicElement(g1, 1932381, 1933720);
+initializeGenomicElement(g1, 1933722, 1935061);
+initializeGenomicElement(g1, 1935063, 1936402);
+initializeGenomicElement(g1, 1936404, 1937743);
+initializeGenomicElement(g1, 1937745, 1939084);
+initializeGenomicElement(g1, 1939086, 1940425);
+initializeGenomicElement(g1, 1940427, 1941766);
+initializeGenomicElement(g1, 1941768, 1943107);
+initializeGenomicElement(g1, 1943109, 1944448);
+initializeGenomicElement(g1, 1944450, 1945789);
+initializeGenomicElement(g1, 1945791, 1947130);
+initializeGenomicElement(g1, 1947132, 1948471);
+initializeGenomicElement(g1, 1948473, 1949812);
+initializeGenomicElement(g1, 1949814, 1951153);
+initializeGenomicElement(g1, 1951155, 1952494);
+initializeGenomicElement(g1, 1952496, 1953835);
+initializeGenomicElement(g1, 1953837, 1955176);
+initializeGenomicElement(g1, 1955178, 1956517);
+initializeGenomicElement(g1, 1956519, 1957858);
+initializeGenomicElement(g1, 1957860, 1959199);
+initializeGenomicElement(g1, 1959201, 1960540);
+initializeGenomicElement(g1, 1960542, 1961881);
+initializeGenomicElement(g1, 1961883, 1963222);
+initializeGenomicElement(g1, 1963224, 1964563);
+initializeGenomicElement(g1, 1964565, 1965904);
+initializeGenomicElement(g1, 1965906, 1967245);
+initializeGenomicElement(g1, 1967247, 1968586);
+initializeGenomicElement(g1, 1968588, 1969927);
+initializeGenomicElement(g1, 1969929, 1971268);
+initializeGenomicElement(g1, 1971270, 1972609);
+initializeGenomicElement(g1, 1972611, 1973950);
+initializeGenomicElement(g1, 1973952, 1975291);
+initializeGenomicElement(g1, 1975293, 1976632);
+initializeGenomicElement(g1, 1976634, 1977973);
+initializeGenomicElement(g1, 1977975, 1979314);
+initializeGenomicElement(g1, 1979316, 1980655);
+initializeGenomicElement(g1, 1980657, 1981996);
+initializeGenomicElement(g1, 1981998, 1983337);
+initializeGenomicElement(g1, 1983339, 1984678);
+initializeGenomicElement(g1, 1984680, 1986019);
+initializeGenomicElement(g1, 1986021, 1987360);
+initializeGenomicElement(g1, 1987362, 1988701);
+initializeGenomicElement(g1, 1988703, 1990042);
+initializeGenomicElement(g1, 1990044, 1991383);
+initializeGenomicElement(g1, 1991385, 1992724);
+initializeGenomicElement(g1, 1992726, 1994065);
+initializeGenomicElement(g1, 1994067, 1995406);
+initializeGenomicElement(g1, 1995408, 1996747);
+initializeGenomicElement(g1, 1996749, 1998088);
+initializeGenomicElement(g1, 1998090, 1999429);
+initializeGenomicElement(g1, 1999431, 2000770);
+initializeGenomicElement(g1, 2000772, 2002111);
+initializeGenomicElement(g1, 2002113, 2003452);
+initializeGenomicElement(g1, 2003454, 2004793);
+initializeGenomicElement(g1, 2004795, 2006134);
+initializeGenomicElement(g1, 2006136, 2007475);
+initializeGenomicElement(g1, 2007477, 2008816);
+initializeGenomicElement(g1, 2008818, 2010157);
+initializeGenomicElement(g1, 2010159, 2011498);
+initializeGenomicElement(g1, 2011500, 2012839);
+initializeGenomicElement(g1, 2012841, 2014180);
+initializeGenomicElement(g1, 2014182, 2015521);
+initializeGenomicElement(g1, 2015523, 2016862);
+initializeGenomicElement(g1, 2016864, 2018203);
+initializeGenomicElement(g1, 2018205, 2019544);
+initializeGenomicElement(g1, 2019546, 2020885);
+initializeGenomicElement(g1, 2020887, 2022226);
+initializeGenomicElement(g1, 2022228, 2023567);
+initializeGenomicElement(g1, 2023569, 2024908);
+initializeGenomicElement(g1, 2024910, 2026249);
+initializeGenomicElement(g1, 2026251, 2027590);
+initializeGenomicElement(g1, 2027592, 2028931);
+initializeGenomicElement(g1, 2028933, 2030272);
+initializeGenomicElement(g1, 2030274, 2031613);
+initializeGenomicElement(g1, 2031615, 2032954);
+initializeGenomicElement(g1, 2032956, 2034295);
+initializeGenomicElement(g1, 2034297, 2035636);
+initializeGenomicElement(g1, 2035638, 2036977);
+initializeGenomicElement(g1, 2036979, 2038318);
+initializeGenomicElement(g1, 2038320, 2039659);
+initializeGenomicElement(g1, 2039661, 2041000);
+initializeGenomicElement(g1, 2041002, 2042341);
+initializeGenomicElement(g1, 2042343, 2043682);
+initializeGenomicElement(g1, 2043684, 2045023);
+initializeGenomicElement(g1, 2045025, 2046364);
+initializeGenomicElement(g1, 2046366, 2047705);
+initializeGenomicElement(g1, 2047707, 2049046);
+initializeGenomicElement(g1, 2049048, 2050387);
+initializeGenomicElement(g1, 2050389, 2051728);
+initializeGenomicElement(g1, 2051730, 2053069);
+initializeGenomicElement(g1, 2053071, 2054410);
+initializeGenomicElement(g1, 2054412, 2055751);
+initializeGenomicElement(g1, 2055753, 2057092);
+initializeGenomicElement(g1, 2057094, 2058433);
+initializeGenomicElement(g1, 2058435, 2059774);
+initializeGenomicElement(g1, 2059776, 2061115);
+initializeGenomicElement(g1, 2061117, 2062456);
+initializeGenomicElement(g1, 2062458, 2063797);
+initializeGenomicElement(g1, 2063799, 2065138);
+initializeGenomicElement(g1, 2065140, 2066479);
+initializeGenomicElement(g1, 2066481, 2067820);
+initializeGenomicElement(g1, 2067822, 2069161);
+initializeGenomicElement(g1, 2069163, 2070502);
+initializeGenomicElement(g1, 2070504, 2071843);
+initializeGenomicElement(g1, 2071845, 2073184);
+initializeGenomicElement(g1, 2073186, 2074525);
+initializeGenomicElement(g1, 2074527, 2075866);
+initializeGenomicElement(g1, 2075868, 2077207);
+initializeGenomicElement(g1, 2077209, 2078548);
+initializeGenomicElement(g1, 2078550, 2079889);
+initializeGenomicElement(g1, 2079891, 2081230);
+initializeGenomicElement(g1, 2081232, 2082571);
+initializeGenomicElement(g1, 2082573, 2083912);
+initializeGenomicElement(g1, 2083914, 2085253);
+initializeGenomicElement(g1, 2085255, 2086594);
+initializeGenomicElement(g1, 2086596, 2087935);
+initializeGenomicElement(g1, 2087937, 2089276);
+initializeGenomicElement(g1, 2089278, 2090617);
+initializeGenomicElement(g1, 2090619, 2091958);
+initializeGenomicElement(g1, 2091960, 2093299);
+initializeGenomicElement(g1, 2093301, 2094640);
+initializeGenomicElement(g1, 2094642, 2095981);
+initializeGenomicElement(g1, 2095983, 2097322);
+initializeGenomicElement(g1, 2097324, 2098663);
+initializeGenomicElement(g1, 2098665, 2100004);
+initializeGenomicElement(g1, 2100006, 2101345);
+initializeGenomicElement(g1, 2101347, 2102686);
+initializeGenomicElement(g1, 2102688, 2104027);
+initializeGenomicElement(g1, 2104029, 2105368);
+initializeGenomicElement(g1, 2105370, 2106709);
+initializeGenomicElement(g1, 2106711, 2108050);
+initializeGenomicElement(g1, 2108052, 2109391);
+initializeGenomicElement(g1, 2109393, 2110732);
+initializeGenomicElement(g1, 2110734, 2112073);
+initializeGenomicElement(g1, 2112075, 2113414);
+initializeGenomicElement(g1, 2113416, 2114755);
+initializeGenomicElement(g1, 2114757, 2116096);
+initializeGenomicElement(g1, 2116098, 2117437);
+initializeGenomicElement(g1, 2117439, 2118778);
+initializeGenomicElement(g1, 2118780, 2120119);
+initializeGenomicElement(g1, 2120121, 2121460);
+initializeGenomicElement(g1, 2121462, 2122801);
+initializeGenomicElement(g1, 2122803, 2124142);
+initializeGenomicElement(g1, 2124144, 2125483);
+initializeGenomicElement(g1, 2125485, 2126824);
+initializeGenomicElement(g1, 2126826, 2128165);
+initializeGenomicElement(g1, 2128167, 2129506);
+initializeGenomicElement(g1, 2129508, 2130847);
+initializeGenomicElement(g1, 2130849, 2132188);
+initializeGenomicElement(g1, 2132190, 2133529);
+initializeGenomicElement(g1, 2133531, 2134870);
+initializeGenomicElement(g1, 2134872, 2136211);
+initializeGenomicElement(g1, 2136213, 2137552);
+initializeGenomicElement(g1, 2137554, 2138893);
+initializeGenomicElement(g1, 2138895, 2140234);
+initializeGenomicElement(g1, 2140236, 2141575);
+initializeGenomicElement(g1, 2141577, 2142916);
+initializeGenomicElement(g1, 2142918, 2144257);
+initializeGenomicElement(g1, 2144259, 2145598);
+initializeGenomicElement(g1, 2145600, 2146939);
+initializeGenomicElement(g1, 2146941, 2148280);
+initializeGenomicElement(g1, 2148282, 2149621);
+initializeGenomicElement(g1, 2149623, 2150962);
+initializeGenomicElement(g1, 2150964, 2152303);
+initializeGenomicElement(g1, 2152305, 2153644);
+initializeGenomicElement(g1, 2153646, 2154985);
+initializeGenomicElement(g1, 2154987, 2156326);
+initializeGenomicElement(g1, 2156328, 2157667);
+initializeGenomicElement(g1, 2157669, 2159008);
+initializeGenomicElement(g1, 2159010, 2160349);
+initializeGenomicElement(g1, 2160351, 2161690);
+initializeGenomicElement(g1, 2161692, 2163031);
+initializeGenomicElement(g1, 2163033, 2164372);
+initializeGenomicElement(g1, 2164374, 2165713);
+initializeGenomicElement(g1, 2165715, 2167054);
+initializeGenomicElement(g1, 2167056, 2168395);
+initializeGenomicElement(g1, 2168397, 2169736);
+initializeGenomicElement(g1, 2169738, 2171077);
+initializeGenomicElement(g1, 2171079, 2172418);
+initializeGenomicElement(g1, 2172420, 2173759);
+initializeGenomicElement(g1, 2173761, 2175100);
+initializeGenomicElement(g1, 2175102, 2176441);
+initializeGenomicElement(g1, 2176443, 2177782);
+initializeGenomicElement(g1, 2177784, 2179123);
+initializeGenomicElement(g1, 2179125, 2180464);
+initializeGenomicElement(g1, 2180466, 2181805);
+initializeGenomicElement(g1, 2181807, 2183146);
+initializeGenomicElement(g1, 2183148, 2184487);
+initializeGenomicElement(g1, 2184489, 2185828);
+initializeGenomicElement(g1, 2185830, 2187169);
+initializeGenomicElement(g1, 2187171, 2188510);
+initializeGenomicElement(g1, 2188512, 2189851);
+initializeGenomicElement(g1, 2189853, 2191192);
+initializeGenomicElement(g1, 2191194, 2192533);
+initializeGenomicElement(g1, 2192535, 2193874);
+initializeGenomicElement(g1, 2193876, 2195215);
+initializeGenomicElement(g1, 2195217, 2196556);
+initializeGenomicElement(g1, 2196558, 2197897);
+initializeGenomicElement(g1, 2197899, 2199238);
+initializeGenomicElement(g1, 2199240, 2200579);
+initializeGenomicElement(g1, 2200581, 2201920);
+initializeGenomicElement(g1, 2201922, 2203261);
+initializeGenomicElement(g1, 2203263, 2204602);
+initializeGenomicElement(g1, 2204604, 2205943);
+initializeGenomicElement(g1, 2205945, 2207284);
+initializeGenomicElement(g1, 2207286, 2208625);
+initializeGenomicElement(g1, 2208627, 2209966);
+initializeGenomicElement(g1, 2209968, 2211307);
+initializeGenomicElement(g1, 2211309, 2212648);
+initializeGenomicElement(g1, 2212650, 2213989);
+initializeGenomicElement(g1, 2213991, 2215330);
+initializeGenomicElement(g1, 2215332, 2216671);
+initializeGenomicElement(g1, 2216673, 2218012);
+initializeGenomicElement(g1, 2218014, 2219353);
+initializeGenomicElement(g1, 2219355, 2220694);
+initializeGenomicElement(g1, 2220696, 2222035);
+initializeGenomicElement(g1, 2222037, 2223376);
+initializeGenomicElement(g1, 2223378, 2224717);
+initializeGenomicElement(g1, 2224719, 2226058);
+initializeGenomicElement(g1, 2226060, 2227399);
+initializeGenomicElement(g1, 2227401, 2228740);
+initializeGenomicElement(g1, 2228742, 2230081);
+initializeGenomicElement(g1, 2230083, 2231422);
+initializeGenomicElement(g1, 2231424, 2232763);
+initializeGenomicElement(g1, 2232765, 2234104);
+initializeGenomicElement(g1, 2234106, 2235445);
+initializeGenomicElement(g1, 2235447, 2236786);
+initializeGenomicElement(g1, 2236788, 2238127);
+initializeGenomicElement(g1, 2238129, 2239468);
+initializeGenomicElement(g1, 2239470, 2240809);
+initializeGenomicElement(g1, 2240811, 2242150);
+initializeGenomicElement(g1, 2242152, 2243491);
+initializeGenomicElement(g1, 2243493, 2244832);
+initializeGenomicElement(g1, 2244834, 2246173);
+initializeGenomicElement(g1, 2246175, 2247514);
+initializeGenomicElement(g1, 2247516, 2248855);
+initializeGenomicElement(g1, 2248857, 2250196);
+initializeGenomicElement(g1, 2250198, 2251537);
+initializeGenomicElement(g1, 2251539, 2252878);
+initializeGenomicElement(g1, 2252880, 2254219);
+initializeGenomicElement(g1, 2254221, 2255560);
+initializeGenomicElement(g1, 2255562, 2256901);
+initializeGenomicElement(g1, 2256903, 2258242);
+initializeGenomicElement(g1, 2258244, 2259583);
+initializeGenomicElement(g1, 2259585, 2260924);
+initializeGenomicElement(g1, 2260926, 2262265);
+initializeGenomicElement(g1, 2262267, 2263606);
+initializeGenomicElement(g1, 2263608, 2264947);
+initializeGenomicElement(g1, 2264949, 2266288);
+initializeGenomicElement(g1, 2266290, 2267629);
+initializeGenomicElement(g1, 2267631, 2268970);
+initializeGenomicElement(g1, 2268972, 2270311);
+initializeGenomicElement(g1, 2270313, 2271652);
+initializeGenomicElement(g1, 2271654, 2272993);
+initializeGenomicElement(g1, 2272995, 2274334);
+initializeGenomicElement(g1, 2274336, 2275675);
+initializeGenomicElement(g1, 2275677, 2277016);
+initializeGenomicElement(g1, 2277018, 2278357);
+initializeGenomicElement(g1, 2278359, 2279698);
+initializeGenomicElement(g1, 2279700, 2281039);
+initializeGenomicElement(g1, 2281041, 2282380);
+initializeGenomicElement(g1, 2282382, 2283721);
+initializeGenomicElement(g1, 2283723, 2285062);
+initializeGenomicElement(g1, 2285064, 2286403);
+initializeGenomicElement(g1, 2286405, 2287744);
+initializeGenomicElement(g1, 2287746, 2289085);
+initializeGenomicElement(g1, 2289087, 2290426);
+initializeGenomicElement(g1, 2290428, 2291767);
+initializeGenomicElement(g1, 2291769, 2293108);
+initializeGenomicElement(g1, 2293110, 2294449);
+initializeGenomicElement(g1, 2294451, 2295790);
+initializeGenomicElement(g1, 2295792, 2297131);
+initializeGenomicElement(g1, 2297133, 2298472);
+initializeGenomicElement(g1, 2298474, 2299813);
+initializeGenomicElement(g1, 2299815, 2301154);
+initializeGenomicElement(g1, 2301156, 2302495);
+initializeGenomicElement(g1, 2302497, 2303836);
+initializeGenomicElement(g1, 2303838, 2305177);
+initializeGenomicElement(g1, 2305179, 2306518);
+initializeGenomicElement(g1, 2306520, 2307859);
+initializeGenomicElement(g1, 2307861, 2309200);
+initializeGenomicElement(g1, 2309202, 2310541);
+initializeGenomicElement(g1, 2310543, 2311882);
+initializeGenomicElement(g1, 2311884, 2313223);
+initializeGenomicElement(g1, 2313225, 2314564);
+initializeGenomicElement(g1, 2314566, 2315905);
+initializeGenomicElement(g1, 2315907, 2317246);
+initializeGenomicElement(g1, 2317248, 2318587);
+initializeGenomicElement(g1, 2318589, 2319928);
+initializeGenomicElement(g1, 2319930, 2321269);
+initializeGenomicElement(g1, 2321271, 2322610);
+initializeGenomicElement(g1, 2322612, 2323951);
+initializeGenomicElement(g1, 2323953, 2325292);
+initializeGenomicElement(g1, 2325294, 2326633);
+initializeGenomicElement(g1, 2326635, 2327974);
+initializeGenomicElement(g1, 2327976, 2329315);
+initializeGenomicElement(g1, 2329317, 2330656);
+initializeGenomicElement(g1, 2330658, 2331997);
+initializeGenomicElement(g1, 2331999, 2333338);
+initializeGenomicElement(g1, 2333340, 2334679);
+initializeGenomicElement(g1, 2334681, 2336020);
+initializeGenomicElement(g1, 2336022, 2337361);
+initializeGenomicElement(g1, 2337363, 2338702);
+initializeGenomicElement(g1, 2338704, 2340043);
+initializeGenomicElement(g1, 2340045, 2341384);
+initializeGenomicElement(g1, 2341386, 2342725);
+initializeGenomicElement(g1, 2342727, 2344066);
+initializeGenomicElement(g1, 2344068, 2345407);
+initializeGenomicElement(g1, 2345409, 2346748);
+initializeGenomicElement(g1, 2346750, 2348089);
+initializeGenomicElement(g1, 2348091, 2349430);
+initializeGenomicElement(g1, 2349432, 2350771);
+initializeGenomicElement(g1, 2350773, 2352112);
+initializeGenomicElement(g1, 2352114, 2353453);
+initializeGenomicElement(g1, 2353455, 2354794);
+initializeGenomicElement(g1, 2354796, 2356135);
+initializeGenomicElement(g1, 2356137, 2357476);
+initializeGenomicElement(g1, 2357478, 2358817);
+initializeGenomicElement(g1, 2358819, 2360158);
+initializeGenomicElement(g1, 2360160, 2361499);
+initializeGenomicElement(g1, 2361501, 2362840);
+initializeGenomicElement(g1, 2362842, 2364181);
+initializeGenomicElement(g1, 2364183, 2365522);
+initializeGenomicElement(g1, 2365524, 2366863);
+initializeGenomicElement(g1, 2366865, 2368204);
+initializeGenomicElement(g1, 2368206, 2369545);
+initializeGenomicElement(g1, 2369547, 2370886);
+initializeGenomicElement(g1, 2370888, 2372227);
+initializeGenomicElement(g1, 2372229, 2373568);
+initializeGenomicElement(g1, 2373570, 2374909);
+initializeGenomicElement(g1, 2374911, 2376250);
+initializeGenomicElement(g1, 2376252, 2377591);
+initializeGenomicElement(g1, 2377593, 2378932);
+initializeGenomicElement(g1, 2378934, 2380273);
+initializeGenomicElement(g1, 2380275, 2381614);
+initializeGenomicElement(g1, 2381616, 2382955);
+initializeGenomicElement(g1, 2382957, 2384296);
+initializeGenomicElement(g1, 2384298, 2385637);
+initializeGenomicElement(g1, 2385639, 2386978);
+initializeGenomicElement(g1, 2386980, 2388319);
+initializeGenomicElement(g1, 2388321, 2389660);
+initializeGenomicElement(g1, 2389662, 2391001);
+initializeGenomicElement(g1, 2391003, 2392342);
+initializeGenomicElement(g1, 2392344, 2393683);
+initializeGenomicElement(g1, 2393685, 2395024);
+initializeGenomicElement(g1, 2395026, 2396365);
+initializeGenomicElement(g1, 2396367, 2397706);
+initializeGenomicElement(g1, 2397708, 2399047);
+initializeGenomicElement(g1, 2399049, 2400388);
+initializeGenomicElement(g1, 2400390, 2401729);
+initializeGenomicElement(g1, 2401731, 2403070);
+initializeGenomicElement(g1, 2403072, 2404411);
+initializeGenomicElement(g1, 2404413, 2405752);
+initializeGenomicElement(g1, 2405754, 2407093);
+initializeGenomicElement(g1, 2407095, 2408434);
+initializeGenomicElement(g1, 2408436, 2409775);
+initializeGenomicElement(g1, 2409777, 2411116);
+initializeGenomicElement(g1, 2411118, 2412457);
+initializeGenomicElement(g1, 2412459, 2413798);
+initializeGenomicElement(g1, 2413800, 2415139);
+initializeGenomicElement(g1, 2415141, 2416480);
+initializeGenomicElement(g1, 2416482, 2417821);
+initializeGenomicElement(g1, 2417823, 2419162);
+initializeGenomicElement(g1, 2419164, 2420503);
+initializeGenomicElement(g1, 2420505, 2421844);
+initializeGenomicElement(g1, 2421846, 2423185);
+initializeGenomicElement(g1, 2423187, 2424526);
+initializeGenomicElement(g1, 2424528, 2425867);
+initializeGenomicElement(g1, 2425869, 2427208);
+initializeGenomicElement(g1, 2427210, 2428549);
+initializeGenomicElement(g1, 2428551, 2429890);
+initializeGenomicElement(g1, 2429892, 2431231);
+initializeGenomicElement(g1, 2431233, 2432572);
+initializeGenomicElement(g1, 2432574, 2433913);
+initializeGenomicElement(g1, 2433915, 2435254);
+initializeGenomicElement(g1, 2435256, 2436595);
+initializeGenomicElement(g1, 2436597, 2437936);
+initializeGenomicElement(g1, 2437938, 2439277);
+initializeGenomicElement(g1, 2439279, 2440618);
+initializeGenomicElement(g1, 2440620, 2441959);
+initializeGenomicElement(g1, 2441961, 2443300);
+initializeGenomicElement(g1, 2443302, 2444641);
+initializeGenomicElement(g1, 2444643, 2445982);
+initializeGenomicElement(g1, 2445984, 2447323);
+initializeGenomicElement(g1, 2447325, 2448664);
+initializeGenomicElement(g1, 2448666, 2450005);
+initializeGenomicElement(g1, 2450007, 2451346);
+initializeGenomicElement(g1, 2451348, 2452687);
+initializeGenomicElement(g1, 2452689, 2454028);
+initializeGenomicElement(g1, 2454030, 2455369);
+initializeGenomicElement(g1, 2455371, 2456710);
+initializeGenomicElement(g1, 2456712, 2458051);
+initializeGenomicElement(g1, 2458053, 2459392);
+initializeGenomicElement(g1, 2459394, 2460733);
+initializeGenomicElement(g1, 2460735, 2462074);
+initializeGenomicElement(g1, 2462076, 2463415);
+initializeGenomicElement(g1, 2463417, 2464756);
+initializeGenomicElement(g1, 2464758, 2466097);
+initializeGenomicElement(g1, 2466099, 2467438);
+initializeGenomicElement(g1, 2467440, 2468779);
+initializeGenomicElement(g1, 2468781, 2470120);
+initializeGenomicElement(g1, 2470122, 2471461);
+initializeGenomicElement(g1, 2471463, 2472802);
+initializeGenomicElement(g1, 2472804, 2474143);
+initializeGenomicElement(g1, 2474145, 2475484);
+initializeGenomicElement(g1, 2475486, 2476825);
+initializeGenomicElement(g1, 2476827, 2478166);
+initializeGenomicElement(g1, 2478168, 2479507);
+initializeGenomicElement(g1, 2479509, 2480848);
+initializeGenomicElement(g1, 2480850, 2482189);
+initializeGenomicElement(g1, 2482191, 2483530);
+initializeGenomicElement(g1, 2483532, 2484871);
+initializeGenomicElement(g1, 2484873, 2486212);
+initializeGenomicElement(g1, 2486214, 2487553);
+initializeGenomicElement(g1, 2487555, 2488894);
+initializeGenomicElement(g1, 2488896, 2490235);
+initializeGenomicElement(g1, 2490237, 2491576);
+initializeGenomicElement(g1, 2491578, 2492917);
+initializeGenomicElement(g1, 2492919, 2494258);
+initializeGenomicElement(g1, 2494260, 2495599);
+initializeGenomicElement(g1, 2495601, 2496940);
+initializeGenomicElement(g1, 2496942, 2498281);
+initializeGenomicElement(g1, 2498283, 2499622);
+initializeGenomicElement(g1, 2499624, 2500963);
+initializeGenomicElement(g1, 2500965, 2502304);
+initializeGenomicElement(g1, 2502306, 2503645);
+initializeGenomicElement(g1, 2503647, 2504986);
+initializeGenomicElement(g1, 2504988, 2506327);
+initializeGenomicElement(g1, 2506329, 2507668);
+initializeGenomicElement(g1, 2507670, 2509009);
+initializeGenomicElement(g1, 2509011, 2510350);
+initializeGenomicElement(g1, 2510352, 2511691);
+initializeGenomicElement(g1, 2511693, 2513032);
+initializeGenomicElement(g1, 2513034, 2514373);
+initializeGenomicElement(g1, 2514375, 2515714);
+initializeGenomicElement(g1, 2515716, 2517055);
+initializeGenomicElement(g1, 2517057, 2518396);
+initializeGenomicElement(g1, 2518398, 2519737);
+initializeGenomicElement(g1, 2519739, 2521078);
+initializeGenomicElement(g1, 2521080, 2522419);
+initializeGenomicElement(g1, 2522421, 2523760);
+initializeGenomicElement(g1, 2523762, 2525101);
+initializeGenomicElement(g1, 2525103, 2526442);
+initializeGenomicElement(g1, 2526444, 2527783);
+initializeGenomicElement(g1, 2527785, 2529124);
+initializeGenomicElement(g1, 2529126, 2530465);
+initializeGenomicElement(g1, 2530467, 2531806);
+initializeGenomicElement(g1, 2531808, 2533147);
+initializeGenomicElement(g1, 2533149, 2534488);
+initializeGenomicElement(g1, 2534490, 2535829);
+initializeGenomicElement(g1, 2535831, 2537170);
+initializeGenomicElement(g1, 2537172, 2538511);
+initializeGenomicElement(g1, 2538513, 2539852);
+initializeGenomicElement(g1, 2539854, 2541193);
+initializeGenomicElement(g1, 2541195, 2542534);
+initializeGenomicElement(g1, 2542536, 2543875);
+initializeGenomicElement(g1, 2543877, 2545216);
+initializeGenomicElement(g1, 2545218, 2546557);
+initializeGenomicElement(g1, 2546559, 2547898);
+initializeGenomicElement(g1, 2547900, 2549239);
+initializeGenomicElement(g1, 2549241, 2550580);
+initializeGenomicElement(g1, 2550582, 2551921);
+initializeGenomicElement(g1, 2551923, 2553262);
+initializeGenomicElement(g1, 2553264, 2554603);
+initializeGenomicElement(g1, 2554605, 2555944);
+initializeGenomicElement(g1, 2555946, 2557285);
+initializeGenomicElement(g1, 2557287, 2558626);
+initializeGenomicElement(g1, 2558628, 2559967);
+initializeGenomicElement(g1, 2559969, 2561308);
+initializeGenomicElement(g1, 2561310, 2562649);
+initializeGenomicElement(g1, 2562651, 2563990);
+initializeGenomicElement(g1, 2563992, 2565331);
+initializeGenomicElement(g1, 2565333, 2566672);
+initializeGenomicElement(g1, 2566674, 2568013);
+initializeGenomicElement(g1, 2568015, 2569354);
+initializeGenomicElement(g1, 2569356, 2570695);
+initializeGenomicElement(g1, 2570697, 2572036);
+initializeGenomicElement(g1, 2572038, 2573377);
+initializeGenomicElement(g1, 2573379, 2574718);
+initializeGenomicElement(g1, 2574720, 2576059);
+initializeGenomicElement(g1, 2576061, 2577400);
+initializeGenomicElement(g1, 2577402, 2578741);
+initializeGenomicElement(g1, 2578743, 2580082);
+initializeGenomicElement(g1, 2580084, 2581423);
+initializeGenomicElement(g1, 2581425, 2582764);
+initializeGenomicElement(g1, 2582766, 2584105);
+initializeGenomicElement(g1, 2584107, 2585446);
+initializeGenomicElement(g1, 2585448, 2586787);
+initializeGenomicElement(g1, 2586789, 2588128);
+initializeGenomicElement(g1, 2588130, 2589469);
+initializeGenomicElement(g1, 2589471, 2590810);
+initializeGenomicElement(g1, 2590812, 2592151);
+initializeGenomicElement(g1, 2592153, 2593492);
+initializeGenomicElement(g1, 2593494, 2594833);
+initializeGenomicElement(g1, 2594835, 2596174);
+initializeGenomicElement(g1, 2596176, 2597515);
+initializeGenomicElement(g1, 2597517, 2598856);
+initializeGenomicElement(g1, 2598858, 2600197);
+initializeGenomicElement(g1, 2600199, 2601538);
+initializeGenomicElement(g1, 2601540, 2602879);
+initializeGenomicElement(g1, 2602881, 2604220);
+initializeGenomicElement(g1, 2604222, 2605561);
+initializeGenomicElement(g1, 2605563, 2606902);
+initializeGenomicElement(g1, 2606904, 2608243);
+initializeGenomicElement(g1, 2608245, 2609584);
+initializeGenomicElement(g1, 2609586, 2610925);
+initializeGenomicElement(g1, 2610927, 2612266);
+initializeGenomicElement(g1, 2612268, 2613607);
+initializeGenomicElement(g1, 2613609, 2614948);
+initializeGenomicElement(g1, 2614950, 2616289);
+initializeGenomicElement(g1, 2616291, 2617630);
+initializeGenomicElement(g1, 2617632, 2618971);
+initializeGenomicElement(g1, 2618973, 2620312);
+initializeGenomicElement(g1, 2620314, 2621653);
+initializeGenomicElement(g1, 2621655, 2622994);
+initializeGenomicElement(g1, 2622996, 2624335);
+initializeGenomicElement(g1, 2624337, 2625676);
+initializeGenomicElement(g1, 2625678, 2627017);
+initializeGenomicElement(g1, 2627019, 2628358);
+initializeGenomicElement(g1, 2628360, 2629699);
+initializeGenomicElement(g1, 2629701, 2631040);
+initializeGenomicElement(g1, 2631042, 2632381);
+initializeGenomicElement(g1, 2632383, 2633722);
+initializeGenomicElement(g1, 2633724, 2635063);
+initializeGenomicElement(g1, 2635065, 2636404);
+initializeGenomicElement(g1, 2636406, 2637745);
+initializeGenomicElement(g1, 2637747, 2639086);
+initializeGenomicElement(g1, 2639088, 2640427);
+initializeGenomicElement(g1, 2640429, 2641768);
+initializeGenomicElement(g1, 2641770, 2643109);
+initializeGenomicElement(g1, 2643111, 2644450);
+initializeGenomicElement(g1, 2644452, 2645791);
+initializeGenomicElement(g1, 2645793, 2647132);
+initializeGenomicElement(g1, 2647134, 2648473);
+initializeGenomicElement(g1, 2648475, 2649814);
+initializeGenomicElement(g1, 2649816, 2651155);
+initializeGenomicElement(g1, 2651157, 2652496);
+initializeGenomicElement(g1, 2652498, 2653837);
+initializeGenomicElement(g1, 2653839, 2655178);
+initializeGenomicElement(g1, 2655180, 2656519);
+initializeGenomicElement(g1, 2656521, 2657860);
+initializeGenomicElement(g1, 2657862, 2659201);
+initializeGenomicElement(g1, 2659203, 2660542);
+initializeGenomicElement(g1, 2660544, 2661883);
+initializeGenomicElement(g1, 2661885, 2663224);
+initializeGenomicElement(g1, 2663226, 2664565);
+initializeGenomicElement(g1, 2664567, 2665906);
+initializeGenomicElement(g1, 2665908, 2667247);
+initializeGenomicElement(g1, 2667249, 2668588);
+initializeGenomicElement(g1, 2668590, 2669929);
+initializeGenomicElement(g1, 2669931, 2671270);
+initializeGenomicElement(g1, 2671272, 2672611);
+initializeGenomicElement(g1, 2672613, 2673952);
+initializeGenomicElement(g1, 2673954, 2675293);
+initializeGenomicElement(g1, 2675295, 2676634);
+initializeGenomicElement(g1, 2676636, 2677975);
+initializeGenomicElement(g1, 2677977, 2679316);
+initializeGenomicElement(g1, 2679318, 2680657);
+initializeGenomicElement(g1, 2680659, 2681998);
+initializeGenomicElement(g1, 2682000, 2683339);
+initializeGenomicElement(g1, 2683341, 2684680);
+initializeGenomicElement(g1, 2684682, 2686021);
+initializeGenomicElement(g1, 2686023, 2687362);
+initializeGenomicElement(g1, 2687364, 2688703);
+initializeGenomicElement(g1, 2688705, 2690044);
+initializeGenomicElement(g1, 2690046, 2691385);
+initializeGenomicElement(g1, 2691387, 2692726);
+initializeGenomicElement(g1, 2692728, 2694067);
+initializeGenomicElement(g1, 2694069, 2695408);
+initializeGenomicElement(g1, 2695410, 2696749);
+initializeGenomicElement(g1, 2696751, 2698090);
+initializeGenomicElement(g1, 2698092, 2699431);
+initializeGenomicElement(g1, 2699433, 2700772);
+initializeGenomicElement(g1, 2700774, 2702113);
+initializeGenomicElement(g1, 2702115, 2703454);
+initializeGenomicElement(g1, 2703456, 2704795);
+initializeGenomicElement(g1, 2704797, 2706136);
+initializeGenomicElement(g1, 2706138, 2707477);
+initializeGenomicElement(g1, 2707479, 2708818);
+initializeGenomicElement(g1, 2708820, 2710159);
+initializeGenomicElement(g1, 2710161, 2711500);
+initializeGenomicElement(g1, 2711502, 2712841);
+initializeGenomicElement(g1, 2712843, 2714182);
+initializeGenomicElement(g1, 2714184, 2715523);
+initializeGenomicElement(g1, 2715525, 2716864);
+initializeGenomicElement(g1, 2716866, 2718205);
+initializeGenomicElement(g1, 2718207, 2719546);
+initializeGenomicElement(g1, 2719548, 2720887);
+initializeGenomicElement(g1, 2720889, 2722228);
+initializeGenomicElement(g1, 2722230, 2723569);
+initializeGenomicElement(g1, 2723571, 2724910);
+initializeGenomicElement(g1, 2724912, 2726251);
+initializeGenomicElement(g1, 2726253, 2727592);
+initializeGenomicElement(g1, 2727594, 2728933);
+initializeGenomicElement(g1, 2728935, 2730274);
+initializeGenomicElement(g1, 2730276, 2731615);
+initializeGenomicElement(g1, 2731617, 2732956);
+initializeGenomicElement(g1, 2732958, 2734297);
+initializeGenomicElement(g1, 2734299, 2735638);
+initializeGenomicElement(g1, 2735640, 2736979);
+initializeGenomicElement(g1, 2736981, 2738320);
+initializeGenomicElement(g1, 2738322, 2739661);
+initializeGenomicElement(g1, 2739663, 2741002);
+initializeGenomicElement(g1, 2741004, 2742343);
+initializeGenomicElement(g1, 2742345, 2743684);
+initializeRecombinationRate(c(0, 0.001, 0, 0.001, 0, 0.001, 0, 0.001, 0, 0.001, 0, 0.001, 0, 0.001, 0, 0.001, 0, 0.001, 0, 0.001, 0, 0.001, 0, 0.001, 0, 0.001, 0, 0.001, 0, 0.001, 0, 0.001, 0, 0.001, 0, 0.001, 0, 0.001, 0, 0.001, 0, 0.001, 0, 0.001, 0, 0.001, 0, 0.001, 0, 0.001, ...), c(1339, 1340, 2680, 2681, 4021, 4022, 5362, 5363, 6703, 6704, 8044, 8045, 9385, 9386, 10726, 10727, 12067, 12068, 13408, 13409, 14749, 14750, 16090, 16091, 17431, 17432, 18772, 18773, 20113, 20114, 21454, 21455, 22795, 22796, 24136, 24137, 25477, 25478, 26818, 26819, 28159, 28160, 29500, 29501, 30841, 30842, 32182, 32183, 33523, 33524, ...));
+
+// Starting run at tick <start>:
+1 
+
+gen,popSize_AF,meanFitness_AF,B_AF,avgvStrDel_AF,avgStrDel_AF,avgModDel_AF,avgWkDel_AF,popSize_EU,meanFitness_EU,B_EU,avgvStrDel_EU,avgStrDel_EU,avgModDel_EU,avgWkDel_EU
+100,7310,0.989033,0.0569775,0.09,1.0,1.5,1.94,NA,NA,NA,NA,NA,NA,NA
+200,7310,0.984505,0.080135,0.17,1.58,2.34,3.8,NA,NA,NA,NA,NA,NA,NA
+300,7310,0.98111,0.0664273,0.14,1.66,3.74,6.07,NA,NA,NA,NA,NA,NA,NA
+400,7310,0.982202,0.0816481,0.17,2.37,4.73,7.27,NA,NA,NA,NA,NA,NA,NA
+500,7310,0.978879,0.106783,0.16,2.6,6.24,9.77,NA,NA,NA,NA,NA,NA,NA
+600,7310,0.976261,0.149271,0.26,2.94,7.47,11.69,NA,NA,NA,NA,NA,NA,NA
+700,7310,0.974706,0.0991132,0.14,2.6,8.02,12.1,NA,NA,NA,NA,NA,NA,NA
+800,7310,0.974679,0.141934,0.2,2.99,8.87,14.67,NA,NA,NA,NA,NA,NA,NA
+900,7310,0.973402,0.11289,0.18,2.96,9.65,15.32,NA,NA,NA,NA,NA,NA,NA
+1000,7310,0.974048,0.127765,0.23,2.41,9.78,17.36,NA,NA,NA,NA,NA,NA,NA
+1100,7310,0.970498,0.143672,0.2,2.81,10.86,18.83,NA,NA,NA,NA,NA,NA,NA
+1200,7310,0.971528,0.0972634,0.13,2.68,11.41,20.87,NA,NA,NA,NA,NA,NA,NA
+1300,7310,0.971547,0.138684,0.19,2.83,11.26,22.91,NA,NA,NA,NA,NA,NA,NA
+1400,7310,0.970843,0.158856,0.22,3.14,12.52,22.9,NA,NA,NA,NA,NA,NA,NA
+1500,7310,0.972583,0.0935706,0.12,2.7,12.68,25.76,NA,NA,NA,NA,NA,NA,NA
+1600,7310,0.970383,0.107398,0.14,2.6,12.41,26.24,NA,NA,NA,NA,NA,NA,NA
+1700,7310,0.970517,0.109949,0.19,2.95,12.52,28.32,NA,NA,NA,NA,NA,NA,NA
+1800,7310,0.970253,0.102558,0.09,2.47,13.26,29.82,NA,NA,NA,NA,NA,NA,NA
+1900,7310,0.970864,0.112537,0.13,2.48,13.31,30.99,NA,NA,NA,NA,NA,NA,NA
+2000,7310,0.969183,0.131338,0.18,2.81,13.32,32.11,NA,NA,NA,NA,NA,NA,NA
+2100,7310,0.969531,0.118658,0.23,2.93,14.05,32.92,NA,NA,NA,NA,NA,NA,NA
+2200,7310,0.970651,0.0909467,0.08,2.59,13.77,34.31,NA,NA,NA,NA,NA,NA,NA
+2300,7310,0.971096,0.154086,0.22,2.44,14.32,36.48,NA,NA,NA,NA,NA,NA,NA
+2400,7310,0.971196,0.128417,0.18,2.75,14.57,36.62,NA,NA,NA,NA,NA,NA,NA
+2500,7310,0.969242,0.139201,0.13,2.89,15.51,38.47,NA,NA,NA,NA,NA,NA,NA
+2600,7310,0.970199,0.117463,0.15,2.63,14.77,39.71,NA,NA,NA,NA,NA,NA,NA
+2700,7310,0.96813,0.120564,0.23,2.82,15.2,41.6,NA,NA,NA,NA,NA,NA,NA
+2800,7310,0.968864,0.097808,0.11,2.64,15.3,42.02,NA,NA,NA,NA,NA,NA,NA
+2900,7310,0.968636,0.130913,0.12,2.63,16.61,47.06,NA,NA,NA,NA,NA,NA,NA
+3000,7310,0.968594,0.0844378,0.05,2.49,16.11,47.61,NA,NA,NA,NA,NA,NA,NA
+3100,7310,0.966399,0.11706,0.19,2.63,16.19,50.0,NA,NA,NA,NA,NA,NA,NA
+3200,7310,0.966578,0.101485,0.13,2.91,16.12,50.59,NA,NA,NA,NA,NA,NA,NA
+3300,7310,0.967704,0.100995,0.12,2.79,16.89,53.06,NA,NA,NA,NA,NA,NA,NA
+3400,7310,0.968452,0.112877,0.14,2.65,16.36,52.96,NA,NA,NA,NA,NA,NA,NA
+3500,7310,0.96541,0.103389,0.1,2.57,16.52,55.95,NA,NA,NA,NA,NA,NA,NA
+3600,7310,0.965925,0.132553,0.18,2.84,17.03,55.55,NA,NA,NA,NA,NA,NA,NA
+3700,7310,0.964968,0.134027,0.2,2.9,18.4,60.42,NA,NA,NA,NA,NA,NA,NA
+3800,7310,0.965346,0.107106,0.14,3.31,16.21,59.96,NA,NA,NA,NA,NA,NA,NA
+3900,7310,0.964174,0.139447,0.23,3.24,16.82,59.3,NA,NA,NA,NA,NA,NA,NA
+4000,7310,0.964285,0.139971,0.15,3.44,16.72,61.58,NA,NA,NA,NA,NA,NA,NA
+4100,7310,0.965089,0.12796,0.13,2.89,17.85,63.6,NA,NA,NA,NA,NA,NA,NA
+4200,7310,0.963509,0.145703,0.22,2.97,17.93,65.39,NA,NA,NA,NA,NA,NA,NA
+4300,7310,0.965652,0.11626,0.13,3.37,18.59,65.3,NA,NA,NA,NA,NA,NA,NA
+4400,7310,0.965333,0.147696,0.19,3.25,17.61,63.89,NA,NA,NA,NA,NA,NA,NA
+4500,7310,0.96747,0.102098,0.15,2.67,17.99,66.54,NA,NA,NA,NA,NA,NA,NA
+4600,7310,0.965535,0.125637,0.13,2.47,18.88,67.0,NA,NA,NA,NA,NA,NA,NA
+4700,7310,0.964484,0.146946,0.19,2.54,18.81,69.16,NA,NA,NA,NA,NA,NA,NA
+4800,7310,0.965316,0.123262,0.13,2.31,19.06,68.85,NA,NA,NA,NA,NA,NA,NA
+4900,7310,0.964932,0.142449,0.19,2.63,19.29,71.64,NA,NA,NA,NA,NA,NA,NA
+5000,7310,0.964171,0.115897,0.14,2.75,19.05,73.2,NA,NA,NA,NA,NA,NA,NA
+5100,14474,0.963527,0.107928,0.12,2.91,19.32,72.49,NA,NA,NA,NA,NA,NA,NA
+5200,14474,0.964526,0.124734,0.16,2.73,19.7,73.27,NA,NA,NA,NA,NA,NA,NA
+5300,14474,0.963437,0.143561,0.17,3.05,20.0,73.42,NA,NA,NA,NA,NA,NA,NA
+5400,14474,0.96209,0.129117,0.13,2.87,20.48,74.15,NA,NA,NA,NA,NA,NA,NA
+5500,14474,0.963155,0.175281,0.27,3.09,20.69,76.99,NA,NA,NA,NA,NA,NA,NA
+5600,14474,0.962382,0.126675,0.13,2.95,22.03,77.03,NA,NA,NA,NA,NA,NA,NA
+5700,14474,0.963625,0.136025,0.2,2.58,20.9,80.64,NA,NA,NA,NA,NA,NA,NA
+5800,14474,0.963455,0.134288,0.17,2.59,21.31,81.48,NA,NA,NA,NA,NA,NA,NA
+5900,14474,0.963744,0.12204,0.15,2.26,22.07,82.41,NA,NA,NA,NA,NA,NA,NA
+6000,14474,0.963576,0.122569,0.1,2.55,21.58,83.55,NA,NA,NA,NA,NA,NA,NA
+6100,14474,0.96296,0.129265,0.14,2.7,21.15,84.56,NA,NA,NA,NA,NA,NA,NA
+6200,14474,0.963125,0.139124,0.2,2.66,21.01,86.72,NA,NA,NA,NA,NA,NA,NA
+6300,14474,0.964234,0.149271,0.13,2.71,20.48,86.85,NA,NA,NA,NA,NA,NA,NA
+6400,14474,0.964499,0.160088,0.19,2.61,20.73,86.81,NA,NA,NA,NA,NA,NA,NA
+6500,14474,0.963753,0.170386,0.22,2.68,21.08,88.74,NA,NA,NA,NA,NA,NA,NA
+6600,14474,0.964589,0.121848,0.13,2.54,20.55,90.86,NA,NA,NA,NA,NA,NA,NA
+6700,14474,0.963291,0.121644,0.17,2.56,20.18,89.54,NA,NA,NA,NA,NA,NA,NA
+6800,14474,0.964504,0.14041,0.18,2.69,20.54,91.75,NA,NA,NA,NA,NA,NA,NA
+6900,14474,0.963328,0.13283,0.17,2.87,19.71,92.58,NA,NA,NA,NA,NA,NA,NA
+7000,14474,0.964196,0.137546,0.15,2.77,20.11,93.68,NA,NA,NA,NA,NA,NA,NA
+7100,14474,0.963707,0.131189,0.12,2.79,20.25,95.11,NA,NA,NA,NA,NA,NA,NA
+7200,14474,0.963523,0.126253,0.17,2.53,20.36,97.89,NA,NA,NA,NA,NA,NA,NA
+7300,14474,0.963712,0.15082,0.18,2.52,20.84,98.21,NA,NA,NA,NA,NA,NA,NA
+7400,14474,0.963103,0.130503,0.14,2.65,21.34,101.04,NA,NA,NA,NA,NA,NA,NA
+7500,14474,0.964104,0.133893,0.19,3.06,20.73,104.19,NA,NA,NA,NA,NA,NA,NA
+7600,14474,0.962747,0.156102,0.22,2.78,20.52,104.52,NA,NA,NA,NA,NA,NA,NA
+7700,14474,0.962607,0.191478,0.28,3.22,20.1,103.68,NA,NA,NA,NA,NA,NA,NA
+7800,14474,0.962527,0.180137,0.23,3.25,20.23,106.52,NA,NA,NA,NA,NA,NA,NA
+7900,14474,0.961741,0.139761,0.18,3.11,20.71,107.47,NA,NA,NA,NA,NA,NA,NA
+8000,14474,0.961327,0.1342,0.23,2.87,20.95,108.26,NA,NA,NA,NA,NA,NA,NA
+8100,14474,0.962045,0.143913,0.13,2.93,21.51,110.26,NA,NA,NA,NA,NA,NA,NA
+8200,14474,0.961535,0.14904,0.19,3.03,22.38,111.14,NA,NA,NA,NA,NA,NA,NA
+8300,14474,0.961356,0.1413,0.16,2.51,21.77,111.88,NA,NA,NA,NA,NA,NA,NA
+8400,14474,0.962625,0.106527,0.1,2.68,21.62,113.37,NA,NA,NA,NA,NA,NA,NA
+8500,14474,0.960975,0.167565,0.22,2.93,21.08,115.52,NA,NA,NA,NA,NA,NA,NA
+8600,14474,0.961583,0.153654,0.19,2.86,20.83,116.75,NA,NA,NA,NA,NA,NA,NA
+8700,14474,0.961431,0.173442,0.23,3.03,21.42,119.21,NA,NA,NA,NA,NA,NA,NA
+8800,14474,0.961322,0.149749,0.2,2.77,19.99,117.2,NA,NA,NA,NA,NA,NA,NA
+8880,14474,0.962193,0.123524,0.16,2.31,20.76,117.87,1861,1.0,0.114125,0.12,2.48,21.1,119.73
+8890,14474,0.962268,0.142393,0.15,2.92,21.75,119.16,1861,0.961507,0.144108,0.16,2.72,21.04,118.09
+8900,14474,0.962495,0.126272,0.14,2.79,21.51,119.64,1861,0.961299,0.137068,0.18,2.81,21.27,119.01
+8910,14474,0.962482,0.119592,0.15,2.78,21.58,120.84,1861,0.962097,0.136958,0.13,2.96,21.27,120.1
+8920,14474,0.962154,0.14181,0.16,2.96,21.48,119.06,1861,0.962119,0.126004,0.1,2.85,21.51,121.49
+8930,14474,0.962337,0.141191,0.19,2.98,21.67,118.69,1861,0.963624,0.163427,0.2,2.4,21.3,122.39
+8940,14474,0.962577,0.114533,0.12,2.28,20.88,122.22,1861,0.96214,0.140557,0.14,2.39,21.66,122.39
+8950,14474,0.963499,0.135973,0.17,2.6,20.42,121.76,1861,0.961263,0.160192,0.23,2.91,21.1,121.19
+8960,14474,0.963868,0.138876,0.21,2.92,21.95,119.84,1861,0.962788,0.130928,0.23,2.72,21.44,119.53
+8970,14474,0.963098,0.129486,0.16,2.47,21.18,122.01,1861,0.962565,0.136187,0.17,2.72,21.1,121.23
+8980,14474,0.963588,0.14502,0.19,2.61,20.93,118.98,1861,0.96068,0.134362,0.17,2.84,20.97,123.45
+8990,14474,0.963524,0.116217,0.16,2.5,20.89,122.44,1861,0.958751,0.181449,0.24,2.81,21.07,122.74
+9000,14474,0.963993,0.11894,0.15,2.22,21.84,121.22,1861,0.96095,0.121458,0.18,2.78,20.86,121.58
+9010,14474,0.963751,0.120946,0.13,2.39,21.35,120.62,1861,0.960389,0.172205,0.2,3.18,22.24,123.45
+9020,14474,0.963947,0.10504,0.08,2.58,21.24,120.99,1861,0.960579,0.118184,0.11,2.44,21.79,125.49
+9030,14474,0.963095,0.120967,0.09,2.58,21.0,123.15,1861,0.961349,0.127671,0.12,2.49,20.95,125.88
+9040,14474,0.963254,0.146166,0.15,2.82,21.89,122.92,1861,0.962466,0.167924,0.18,2.66,20.76,124.79
+9050,14474,0.962915,0.156092,0.21,2.65,21.26,120.89,1861,0.961973,0.125346,0.11,2.62,20.71,124.98
+9060,14474,0.963082,0.113728,0.11,2.34,21.31,120.96,1861,0.963445,0.133927,0.14,2.63,20.66,124.03
+9070,14474,0.962712,0.122942,0.14,2.49,21.74,123.13,1861,0.963337,0.140716,0.13,2.4,21.51,124.83
+9080,14474,0.962553,0.146311,0.14,2.6,21.04,120.48,1861,0.965086,0.0974764,0.08,2.78,21.17,123.79
+9090,14474,0.962572,0.128122,0.2,2.4,21.7,124.22,1861,0.96456,0.124577,0.15,2.53,21.43,125.08
+9100,14474,0.962424,0.118125,0.15,2.49,20.85,121.99,1861,0.963345,0.124532,0.15,2.5,21.5,122.55
+9110,14474,0.963298,0.143054,0.23,2.73,20.01,123.02,1861,0.962982,0.133548,0.17,2.63,20.87,126.4
+9120,14474,0.962883,0.145154,0.2,2.52,20.41,122.44,1861,0.963512,0.101017,0.06,2.43,20.54,124.2
+9130,14474,0.962444,0.163374,0.22,2.71,21.06,122.05,1861,0.961391,0.148354,0.17,2.56,20.8,125.01
+9140,14474,0.962109,0.14279,0.18,2.77,20.64,122.87,1861,0.960142,0.173275,0.24,2.83,20.66,123.68
+9150,14474,0.962773,0.171024,0.21,2.69,20.34,122.88,1861,0.961732,0.149901,0.25,2.75,20.27,124.66
+9160,14474,0.962656,0.12539,0.15,2.65,20.34,123.99,1861,0.961083,0.1354,0.2,2.97,19.82,125.54
+9170,14474,0.961958,0.124737,0.14,2.43,20.77,124.06,1861,0.962153,0.157797,0.27,2.89,20.55,125.47
+9180,14474,0.961668,0.172264,0.24,3.04,21.15,123.14,1861,0.961338,0.133433,0.2,2.89,20.87,125.2
+9190,14474,0.961482,0.149232,0.22,2.87,20.29,124.13,1861,0.961632,0.165067,0.25,2.94,21.65,124.09
+9200,14474,0.961439,0.105766,0.14,2.81,20.13,123.29,1861,0.962516,0.117156,0.17,3.07,20.83,125.28
+9210,14474,0.961632,0.145244,0.18,2.86,20.97,122.96,1861,0.961069,0.136623,0.25,3.13,21.25,127.12
+9220,14474,0.961803,0.128054,0.17,2.66,20.96,124.83,1861,0.960896,0.118074,0.18,2.84,20.67,125.91
+9230,14474,0.961769,0.150291,0.2,2.54,20.44,126.58,1861,0.96045,0.129943,0.25,3.06,21.21,125.55
+9240,14474,0.961799,0.116259,0.13,2.87,20.48,122.64,1861,0.960762,0.127678,0.24,3.01,22.71,126.13
+9250,14474,0.961903,0.133806,0.16,2.69,20.67,123.16,1861,0.960542,0.154646,0.25,3.28,21.91,126.87
+9260,14474,0.962494,0.134563,0.22,2.54,19.54,124.08,1861,0.959085,0.145934,0.28,3.44,22.48,127.86
+9270,14474,0.962811,0.144321,0.2,2.78,20.87,125.2,1861,0.958534,0.161144,0.27,3.15,22.39,125.31
+9280,14474,0.96269,0.123174,0.13,2.61,20.79,122.99,1861,0.958021,0.165739,0.25,3.35,21.72,128.8
+9290,14474,0.96242,0.116645,0.11,2.7,21.39,123.96,1861,0.958316,0.13946,0.24,2.87,22.01,127.61
+9300,14474,0.962425,0.150309,0.19,2.85,20.45,124.61,1861,0.958841,0.169829,0.31,3.08,23.32,128.17
+9310,14474,0.96236,0.158033,0.21,3.06,20.81,125.22,1861,0.958792,0.131326,0.23,2.98,22.82,127.47
+9320,14474,0.962838,0.114548,0.15,2.92,21.01,124.04,1861,0.958004,0.146395,0.25,2.95,23.92,126.12
+9330,14474,0.962514,0.122451,0.13,2.8,21.21,123.64,1861,0.959039,0.116086,0.13,2.69,23.73,126.29
+9340,14474,0.962489,0.182689,0.3,3.38,21.4,125.36,1861,0.958017,0.136172,0.19,2.87,24.14,127.78
+9350,14474,0.962266,0.146725,0.15,2.73,21.53,123.72,1861,0.959368,0.109621,0.1,2.83,23.29,127.1
+9360,14474,0.961809,0.157086,0.2,3.01,20.71,126.69,1861,0.959221,0.171767,0.25,2.8,24.16,126.71
+9370,14474,0.961423,0.133513,0.22,2.78,20.28,125.5,1861,0.959588,0.132167,0.11,2.62,23.49,126.08
+9380,14474,0.961766,0.13402,0.15,2.91,20.71,125.15,1861,0.95754,0.161837,0.2,2.83,23.12,126.15
+9390,14474,0.961901,0.104145,0.1,2.83,20.78,126.86,1861,0.960337,0.139085,0.18,2.87,22.88,126.8
+9400,14474,0.962775,0.0947885,0.08,2.34,21.1,126.62,1861,0.959264,0.199404,0.24,2.75,23.64,125.55
+9410,14474,0.962378,0.121637,0.13,2.66,20.69,125.13,1861,0.958367,0.169345,0.28,2.8,22.96,125.2
+9420,14474,0.962476,0.147443,0.23,2.7,20.76,125.4,1861,0.958766,0.156834,0.26,2.59,23.67,125.29
+9430,14474,0.962105,0.120578,0.15,2.7,20.53,124.93,1861,0.960214,0.166824,0.2,2.76,22.96,125.8
+9440,14474,0.961944,0.137193,0.15,2.96,20.17,124.85,1861,0.961369,0.11608,0.15,2.82,23.67,125.96
+9450,14474,0.962154,0.145763,0.21,2.83,21.24,123.97,1861,0.962844,0.119461,0.14,2.41,23.43,127.58
+9460,14474,0.961806,0.133179,0.18,2.86,20.83,125.34,1861,0.962082,0.106796,0.12,2.5,23.0,124.73
+9470,14474,0.961535,0.127268,0.19,2.75,20.71,125.1,1861,0.960137,0.147632,0.17,2.55,22.63,126.78
+9480,14474,0.961536,0.135811,0.19,2.43,20.45,127.4,1861,0.960869,0.11927,0.13,2.74,23.19,125.25
+9490,14474,0.962341,0.109442,0.12,2.86,20.61,126.18,1861,0.960171,0.124705,0.17,2.61,23.58,126.09
+9500,14474,0.961971,0.135405,0.2,2.44,21.09,127.41,1861,0.958713,0.105155,0.14,2.48,24.51,128.08
+9510,14474,0.962119,0.131234,0.22,2.69,21.56,126.78,1861,0.958451,0.172361,0.27,2.59,24.38,126.05
+9520,14474,0.961415,0.136327,0.22,2.78,21.04,127.51,1861,0.959275,0.136125,0.2,2.75,24.82,127.52
+9530,14474,0.961934,0.147884,0.23,2.75,22.09,127.12,1861,0.959949,0.125052,0.14,2.66,23.37,126.43
+9540,14474,0.962146,0.182305,0.28,2.81,21.22,125.81,1861,0.958148,0.173418,0.24,2.89,24.37,129.67
+9550,14474,0.961816,0.139108,0.18,2.75,21.17,127.05,1861,0.958756,0.137994,0.16,2.68,24.88,129.96
+9560,14474,0.96139,0.167466,0.24,2.85,21.14,126.13,1861,0.959964,0.149769,0.18,2.86,23.44,128.64
+9570,14474,0.962318,0.140195,0.28,2.6,21.26,126.77,1861,0.959347,0.150881,0.2,3.2,23.7,130.23
+9580,14474,0.961804,0.149701,0.18,2.99,22.11,124.34,1861,0.95796,0.120726,0.11,3.08,23.83,134.28
+9590,14474,0.961509,0.114031,0.16,2.81,21.61,126.53,1861,0.957201,0.14084,0.17,2.89,23.54,133.33
+9600,14474,0.961063,0.142479,0.2,2.92,20.39,127.48,1861,0.958962,0.13382,0.2,3.09,22.77,131.46
+9610,14474,0.961467,0.151007,0.2,2.6,22.04,129.3,1861,0.959585,0.129865,0.13,2.69,23.56,132.06
+9620,14474,0.960878,0.138536,0.2,2.5,21.02,126.61,1861,0.95805,0.120015,0.18,2.99,23.66,130.45
+9630,14474,0.960671,0.139864,0.18,2.85,21.42,130.26,1861,0.958285,0.150052,0.22,2.86,22.85,132.89
+9640,14474,0.960454,0.141614,0.23,2.76,20.78,128.44,1861,0.960374,0.126857,0.15,2.62,24.2,133.3
+9650,14474,0.960304,0.14278,0.19,2.65,20.74,128.57,1861,0.959381,0.135487,0.16,2.83,24.25,132.48
+9660,14474,0.960643,0.145583,0.17,3.15,21.12,129.2,1861,0.961218,0.107564,0.13,2.97,23.94,133.24
+9670,14474,0.960927,0.137276,0.18,2.35,21.66,128.58,1861,0.95908,0.145701,0.19,3.3,25.12,131.61
+9680,14474,0.960845,0.110059,0.13,2.76,21.93,127.82,1861,0.958516,0.150779,0.21,2.94,24.87,130.21
+9690,14474,0.96173,0.152433,0.18,3.33,21.3,127.26,1861,0.959583,0.16069,0.21,2.83,24.45,131.11
+9700,14474,0.96155,0.139642,0.15,2.74,21.57,129.55,1861,0.959338,0.141375,0.16,2.7,23.72,129.38
+9710,14474,0.961852,0.162827,0.21,3.34,21.52,128.65,1861,0.958861,0.122485,0.1,2.56,23.87,129.58
+9720,14474,0.962345,0.139025,0.17,2.77,21.07,128.83,1861,0.957707,0.146444,0.16,2.86,24.65,130.64
+9730,14474,0.961517,0.131748,0.16,3.2,20.32,130.33,1861,0.958844,0.12415,0.12,2.7,25.44,131.7
+9740,14474,0.96115,0.133576,0.21,2.5,22.22,127.81,1861,0.960042,0.121916,0.13,2.63,23.34,132.99
+9750,14474,0.961772,0.126514,0.13,2.54,21.15,130.02,1861,0.958942,0.122983,0.1,2.74,23.14,132.0
+9760,14474,0.960677,0.134767,0.14,2.63,22.0,129.43,1861,0.959213,0.141749,0.14,2.99,23.4,131.73
+9770,14474,0.959983,0.17964,0.23,2.6,22.25,128.12,1861,0.959315,0.110644,0.12,2.93,23.58,131.66
+9780,14474,0.960687,0.141371,0.16,2.79,20.64,130.15,1861,0.959014,0.108946,0.1,3.08,23.8,131.32
+9790,14474,0.960405,0.153127,0.24,3.09,21.88,130.36,1861,0.957393,0.120272,0.13,2.93,23.01,131.45
+9800,14474,0.960864,0.119039,0.11,2.7,21.61,131.41,1861,0.957792,0.149252,0.22,3.03,23.98,131.19
+9810,14474,0.961245,0.122576,0.14,2.49,21.57,128.53,1861,0.956353,0.147419,0.23,3.33,23.28,131.48
+9820,14474,0.960937,0.128984,0.17,3.02,21.19,129.29,1861,0.956038,0.130085,0.13,2.69,23.8,131.64
+9830,14474,0.960948,0.151066,0.23,2.79,20.89,130.18,1861,0.958114,0.117822,0.1,3.1,23.77,130.75
+9840,14474,0.961836,0.165385,0.22,3.07,20.62,130.03,1861,0.956734,0.173614,0.23,2.99,23.34,132.7
+9850,14474,0.961855,0.126499,0.12,3.01,20.93,131.45,1861,0.960592,0.132324,0.11,2.88,24.31,132.0
+9860,14474,0.960933,0.170127,0.27,3.02,21.57,131.08,1861,0.961443,0.108752,0.1,3.26,22.35,132.98
+9870,14474,0.960898,0.164654,0.25,2.81,21.27,129.44,1861,0.958804,0.136773,0.15,3.4,22.39,133.28
+9880,14474,0.960795,0.157096,0.2,3.22,21.57,130.25,1861,0.959619,0.127289,0.1,3.23,22.85,133.68
+9890,14474,0.96136,0.1432,0.16,2.94,21.48,129.76,1861,0.959477,0.118415,0.08,2.82,23.17,132.61
+9900,14474,0.961662,0.100446,0.07,2.74,21.46,129.87,1861,0.959716,0.0999686,0.08,2.74,23.02,132.65
+9910,14474,0.961388,0.154222,0.19,2.85,21.78,129.54,1861,0.957911,0.136256,0.2,3.32,23.39,133.33
+9920,14474,0.960923,0.125716,0.16,2.42,21.37,127.4,1861,0.956821,0.145822,0.16,3.23,22.94,132.92
+9930,14474,0.960357,0.1712,0.23,3.03,21.36,128.98,1861,0.957605,0.13439,0.24,3.04,23.54,135.27
+9940,14474,0.961186,0.106571,0.12,2.7,21.7,128.82,1861,0.95591,0.159794,0.3,3.4,24.1,134.21
+9950,14474,0.960794,0.125288,0.15,3.05,22.56,126.27,1861,0.955614,0.153929,0.24,3.08,23.55,134.51
+9960,14474,0.961105,0.149914,0.21,2.65,21.84,127.79,1861,0.957142,0.169573,0.28,3.27,23.89,133.16
+9970,14474,0.961056,0.117262,0.13,2.71,21.85,130.03,1861,0.954602,0.182638,0.26,3.28,23.79,135.76
+9980,14474,0.960655,0.148165,0.17,2.65,22.12,130.56,1861,0.953819,0.168005,0.38,3.28,23.87,133.91
+9990,14474,0.960862,0.141037,0.16,2.85,21.96,130.88,1861,0.953899,0.177236,0.37,3.09,23.64,132.3
+10000,14474,0.961138,0.133747,0.13,2.73,22.84,130.73,1861,0.957367,0.139935,0.23,2.8,24.12,131.63
+10010,14474,0.960701,0.113278,0.1,2.78,22.19,130.7,1061,0.959725,0.143884,0.2,2.64,25.31,129.03
+10020,14474,0.959627,0.156838,0.21,3.08,22.75,130.53,1094,0.960045,0.115026,0.16,2.31,24.6,128.88
+10030,14474,0.959248,0.152963,0.21,2.78,22.4,129.73,1128,0.962916,0.0937963,0.1,2.06,25.48,129.8
+10040,14474,0.959763,0.146485,0.2,3.02,22.52,130.41,1163,0.959757,0.126052,0.13,2.78,24.59,131.24
+10050,14474,0.960078,0.173742,0.22,3.17,22.12,129.43,1199,0.962378,0.114235,0.14,2.42,25.19,130.32
+10060,14474,0.960144,0.141305,0.17,2.84,22.17,129.21,1237,0.961804,0.108389,0.14,2.73,24.98,131.14
+10070,14474,0.960254,0.145545,0.17,2.98,23.12,128.58,1275,0.959359,0.133621,0.14,2.62,25.12,129.69
+10080,14474,0.960394,0.121427,0.14,2.81,21.5,129.64,1315,0.961581,0.114349,0.09,2.65,25.15,130.35
+10090,14474,0.960464,0.147677,0.23,2.95,22.09,130.02,1356,0.961962,0.147798,0.15,2.21,25.16,131.09
+10100,14474,0.960361,0.165927,0.27,2.87,22.66,130.84,1398,0.960488,0.150841,0.2,2.3,25.34,132.72
+10110,14474,0.960137,0.127763,0.16,2.88,22.59,129.03,1441,0.962247,0.116248,0.17,2.4,25.04,131.24
+10120,14474,0.960202,0.133746,0.18,2.7,22.42,130.38,1486,0.961479,0.101649,0.12,2.42,24.66,131.07
+10130,14474,0.960134,0.153902,0.22,2.74,21.9,130.87,1533,0.963111,0.0864482,0.06,2.07,24.23,128.84
+10140,14474,0.960424,0.157867,0.25,2.63,22.13,131.28,1580,0.961334,0.124108,0.19,2.18,24.75,127.56
+10150,14474,0.960356,0.157835,0.2,2.94,22.56,131.45,1629,0.962147,0.130271,0.14,2.29,24.98,129.8
+10160,14474,0.960525,0.119109,0.12,2.71,22.14,132.73,1680,0.960196,0.14125,0.16,2.33,24.85,130.43
+10170,14474,0.960405,0.132974,0.12,2.95,22.08,132.11,1732,0.960346,0.149757,0.21,2.08,24.55,131.51
+10180,14474,0.960952,0.150542,0.17,3.11,22.36,131.69,1786,0.961925,0.128676,0.22,2.34,24.07,132.4
+10190,14474,0.960778,0.129683,0.12,2.83,23.63,132.07,1842,0.962526,0.117025,0.16,2.34,25.1,131.43
+10200,14474,0.960788,0.152575,0.2,2.88,22.41,131.78,1899,0.960655,0.111491,0.2,2.49,24.93,133.23
+10210,14474,0.960742,0.142861,0.22,3.31,22.96,131.89,1958,0.961898,0.102167,0.17,2.32,24.19,132.6
+10220,14474,0.960385,0.15148,0.17,3.04,22.71,132.02,2019,0.960546,0.140613,0.24,2.37,24.82,135.17
+10230,14474,0.958991,0.166163,0.29,2.83,23.26,132.27,2082,0.961786,0.0964937,0.11,2.35,23.92,134.33
+10240,14474,0.960192,0.137839,0.17,3.07,22.68,130.65,2147,0.960769,0.103686,0.15,2.43,23.69,134.09
+10250,14474,0.959775,0.172637,0.25,3.04,22.9,133.12,2214,0.958619,0.168166,0.27,2.69,23.68,134.46
+10260,14474,0.959867,0.153849,0.16,2.78,22.06,133.13,2283,0.959146,0.135219,0.24,2.81,23.68,135.06
+10270,14474,0.960235,0.123115,0.12,2.74,22.94,131.54,2354,0.958893,0.140471,0.24,2.8,25.07,135.01
+10280,14474,0.95965,0.112792,0.11,2.95,21.93,132.35,2427,0.957519,0.150167,0.21,2.89,24.19,136.37
+10290,14474,0.959703,0.160542,0.24,2.95,21.92,132.47,2503,0.956514,0.149301,0.19,2.83,23.91,135.81
+10300,14474,0.959203,0.13951,0.17,3.28,22.34,132.78,2581,0.958467,0.138633,0.15,3.24,23.53,135.45
+10310,14474,0.959354,0.140217,0.13,2.86,22.68,134.98,2661,0.958272,0.169125,0.18,2.91,24.25,134.79
+10320,14474,0.959733,0.141589,0.19,3.17,22.13,132.73,2744,0.958507,0.166532,0.26,3.03,23.48,137.46
+10330,14474,0.959237,0.156828,0.2,3.04,22.23,136.23,2829,0.959736,0.128131,0.11,2.73,24.92,137.24
+10340,14474,0.95973,0.138318,0.2,2.79,21.41,135.87,2917,0.961046,0.0922577,0.06,2.52,23.51,136.79
+10350,14474,0.960163,0.128288,0.13,2.87,22.9,135.19,3008,0.959885,0.137784,0.13,2.87,23.99,138.15
+10360,14474,0.959383,0.140745,0.15,2.76,22.75,135.99,3102,0.959703,0.122489,0.13,2.91,23.66,139.11
+10370,14474,0.959514,0.126074,0.17,2.86,21.6,136.94,3198,0.960444,0.129375,0.11,2.77,24.34,135.35
+10380,14474,0.960197,0.142341,0.16,3.19,22.02,136.3,3298,0.960195,0.163461,0.21,2.82,24.01,136.27
+10390,14474,0.959634,0.115773,0.12,3.18,20.97,137.48,3400,0.959747,0.129491,0.19,2.84,24.06,135.32
+10400,14474,0.95961,0.153911,0.22,3.05,21.44,136.09,3506,0.958902,0.128508,0.12,3.19,23.66,136.16
+10410,14474,0.959882,0.15346,0.2,3.15,21.42,136.77,3615,0.958358,0.142056,0.17,2.95,24.25,138.54
+10420,14474,0.959375,0.166995,0.19,2.88,21.83,138.86,3728,0.959799,0.149625,0.24,2.92,24.53,138.64
+10430,14474,0.960148,0.148209,0.2,3.19,21.44,136.62,3844,0.95955,0.136921,0.16,2.87,23.66,139.08
+10440,14474,0.959999,0.146401,0.15,2.98,21.22,137.59,3964,0.959957,0.100672,0.11,2.78,24.1,138.76
+10450,14474,0.960174,0.157377,0.23,2.98,22.08,135.43,4087,0.958922,0.123638,0.16,2.96,24.05,138.54
+10460,14474,0.959776,0.176269,0.22,3.19,21.25,136.58,4214,0.958328,0.149996,0.17,3.11,24.15,137.68
+10470,14474,0.959886,0.165724,0.24,3.21,21.83,135.7,4345,0.958946,0.144261,0.16,3.32,23.45,137.81
+10480,14474,0.959706,0.136247,0.18,3.05,21.49,137.06,4481,0.959455,0.106453,0.09,2.81,23.21,136.47
+10490,14474,0.959114,0.164567,0.21,2.76,22.04,137.14,4620,0.9582,0.136624,0.16,3.16,24.67,137.52
+10500,14474,0.959773,0.178215,0.23,3.15,22.01,138.47,4764,0.958183,0.164843,0.24,3.24,23.85,137.39
+10510,14474,0.960087,0.127266,0.13,3.04,21.3,138.25,4912,0.958947,0.15633,0.21,3.06,24.33,137.53
+10520,14474,0.960559,0.134521,0.13,3.23,21.41,136.71,5065,0.958729,0.12851,0.14,3.01,23.47,138.16
+10530,14474,0.961152,0.129481,0.18,2.85,21.53,139.14,5223,0.958448,0.144906,0.21,3.02,23.84,138.41
+10540,14474,0.960157,0.127038,0.17,2.85,21.64,136.65,5385,0.959344,0.14642,0.21,3.41,23.75,139.13
+10550,14474,0.960108,0.186347,0.24,2.86,21.09,138.45,5553,0.95928,0.119201,0.15,3.13,24.01,137.63
+10560,14474,0.960437,0.143953,0.16,3.05,21.0,137.16,5726,0.95842,0.149825,0.18,3.17,22.87,139.12
+10570,14474,0.960933,0.168455,0.32,2.78,22.23,140.61,5904,0.95841,0.135877,0.14,3.34,23.44,138.89
+10580,14474,0.960474,0.151365,0.23,2.81,21.79,138.64,6088,0.958093,0.169669,0.22,3.29,23.69,139.48
+10590,14474,0.959617,0.163428,0.23,3.02,21.63,140.05,6277,0.959043,0.126154,0.14,2.94,24.24,136.67
+10600,14474,0.960148,0.117628,0.13,2.82,20.87,140.55,6473,0.959836,0.140946,0.16,3.01,24.67,139.51
+10610,14474,0.960461,0.135013,0.16,2.68,21.89,137.62,6674,0.959506,0.131055,0.13,3.11,24.67,137.13
+10620,14474,0.96053,0.133353,0.21,2.74,22.17,139.77,6882,0.960122,0.128338,0.11,2.81,23.96,138.88
+10630,14474,0.960802,0.121417,0.1,2.51,21.66,138.81,7096,0.959405,0.157442,0.21,3.15,24.13,140.81
+10640,14474,0.960778,0.132591,0.16,2.63,22.41,139.29,7317,0.959069,0.144703,0.16,3.0,24.06,139.12
+10650,14474,0.96181,0.145002,0.18,2.43,21.81,141.26,7545,0.959287,0.119668,0.12,3.01,24.31,139.62
+10660,14474,0.962041,0.158948,0.17,2.45,22.75,138.45,7780,0.959402,0.133534,0.17,2.81,24.37,141.77
+10670,14474,0.961424,0.159207,0.2,2.61,22.47,140.43,8022,0.958679,0.172466,0.21,2.77,24.24,140.02
+10680,14474,0.961791,0.116958,0.14,2.21,22.92,140.42,8272,0.959183,0.133048,0.14,2.67,24.53,140.31
+10690,14474,0.961503,0.112396,0.12,2.23,21.96,141.07,8529,0.959067,0.15047,0.24,3.05,23.42,140.26
+10700,14474,0.960989,0.16558,0.2,2.56,21.72,140.11,8795,0.959126,0.143231,0.2,2.83,24.56,139.4
+10710,14474,0.960744,0.168319,0.22,2.33,22.45,141.96,9068,0.958678,0.137622,0.24,2.89,24.18,141.45
+10720,15207,0.960644,0.168569,0.31,2.76,22.69,141.72,9832,0.958964,0.161456,0.3,2.81,24.02,141.1
+10730,17928,0.959904,0.131106,0.14,2.18,22.22,139.72,11927,0.957965,0.152719,0.19,2.98,25.66,139.79
+10740,21137,0.960735,0.152728,0.24,2.8,22.03,140.78,14468,0.958753,0.142001,0.16,3.0,24.8,140.99
+10750,24920,0.961222,0.134668,0.16,2.52,21.81,141.42,17550,0.958909,0.126999,0.16,2.84,23.95,140.94
+10760,29379,0.961491,0.143942,0.18,2.81,22.5,139.28,21289,0.959171,0.158519,0.22,2.81,24.36,142.27
+10770,34637,0.961469,0.144705,0.16,2.68,21.99,141.11,25824,0.959385,0.155956,0.24,2.84,24.04,142.84
+10780,40836,0.961116,0.138336,0.16,2.66,21.79,141.59,31325,0.959432,0.142133,0.2,2.86,23.36,143.18
+10790,48144,0.961374,0.152639,0.21,2.68,22.29,141.89,37999,0.959264,0.146661,0.18,3.09,24.17,140.46
+10800,56761,0.961407,0.154308,0.2,2.42,21.51,140.9,46094,0.959206,0.144998,0.25,2.72,24.02,142.32
+10810,66919,0.961458,0.127637,0.16,2.45,21.53,141.51,55913,0.959238,0.142222,0.25,2.85,24.2,143.47
+10820,78895,0.96121,0.141841,0.19,2.55,21.35,141.96,67824,0.958862,0.13372,0.24,2.95,24.33,142.71
+10830,93014,0.961506,0.138638,0.18,2.59,21.58,141.43,82273,0.959265,0.121972,0.15,2.82,23.99,144.41
+10840,109661,0.961754,0.134314,0.17,2.54,22.04,142.72,99800,0.959523,0.149122,0.2,2.75,23.68,143.09
+10850,129286,0.961766,0.111887,0.15,2.44,22.09,142.5,121061,0.959527,0.157798,0.27,3.06,24.16,144.47
+10860,152424,0.961603,0.153298,0.21,2.64,21.69,140.7,146850,0.959437,0.165864,0.26,2.63,23.56,145.3
+10870,179703,0.961693,0.125353,0.18,2.64,20.99,141.15,178134,0.959607,0.138159,0.15,2.62,23.76,144.06
+10880,211863,0.96166,0.138852,0.16,2.67,21.35,141.99,216083,0.959532,0.162721,0.29,2.89,23.16,144.84
+10890,249780,0.961337,0.14032,0.17,2.71,21.7,139.09,262115,0.959453,0.101923,0.07,2.52,24.09,143.96
+10900,294481,0.961376,0.11314,0.11,2.54,21.65,141.95,317954,0.959454,0.133996,0.19,2.91,24.17,143.16
+10910,347183,0.96145,0.119666,0.14,2.62,22.04,141.07,385688,0.959538,0.154508,0.21,3.05,24.98,143.63
+10920,409317,0.961479,0.144004,0.18,2.62,22.37,142.14,467852,0.959499,0.172687,0.23,2.78,24.21,143.25
