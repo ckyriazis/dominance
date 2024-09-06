@@ -1,0 +1,236 @@
+initialize() {
+	initializeMutationRate(1.5e-8*2.31/3.31);
+	defineConstant("sampleSize", 100); //for sampling the pop for summary stats	
+	
+	// set dominance coefficients for different deleterious mutation types
+	defineConstant("h_neut", 0.5);
+	defineConstant("h_nearNeut", 0.45);
+	defineConstant("h_wkDel", 0.25);
+	defineConstant("h_modDel", 0.15);
+	defineConstant("h_strDel", 0.05);
+	
+	initializeMutationType("m1", h_neut, "s", "return runif(1, -2e-5, 0.0);");
+	initializeMutationType("m2", h_nearNeut, "s", "return runif(1, -2e-4, -2e-5);");
+	initializeMutationType("m3", h_wkDel, "s", "return runif(1, -2e-3, -2e-4);");
+	initializeMutationType("m4", h_modDel, "s", "return runif(1, -2e-2, -2e-3);");
+	initializeMutationType("m5", h_strDel, "s", "return runif(1, -1.0, -2e-2);");
+	
+	// mutation proportions used to enforce discrete DFE
+	initializeGenomicElementType("g1", c(m1,m2,m3,m4,m5), c(0.2009326, 0.2221936, 0.01764828, 0.285706, 0.2735195));
+	
+	
+	// set up 22 autosomes, each with gene_num # of genes
+	// set gene_num to result in 20,000-25,000 genes (Keightley 2012 doi: 10.1534/genetics.111.134668)
+	gene_num=1023;
+	
+	
+	gene_vec=rep(gene_num,11);
+	
+	//assume gene length of 1340bp (Keightley 2012 doi: 10.1534/genetics.111.134668)
+	//resulting in total sequence length of 26.8-33.5 Mb
+	defineConstant("geneLength", 1340);
+	
+	defineConstant("seqLength", sum(gene_vec)*geneLength);
+	
+	gene_num=sum(gene_vec);
+	
+	for (i in 1:gene_num){
+		initializeGenomicElement(g1, ((i-1)*geneLength)+(i-1), (i*geneLength)+(i-2) );
+	}
+	
+	rates=NULL;
+	
+	//assume no recombination within genes, a rate of 1e-3 between genes, and free recombination between chroms
+	for (i in 1:(size(gene_vec)-1)){
+		rates=c(rates, 0, rep(c(1e-3, 0), asInteger(gene_vec[i-1]-1)), 0.5);
+	}
+	rates=c(rates, 0, rep(c(1e-3, 0), asInteger(gene_vec[size(gene_vec)-1]-1)));
+	
+	ends=NULL;
+	for (i in 1:gene_num){
+		ends=c(ends, (i*geneLength)+(i-2), (i*geneLength)+(i-1));
+	}
+	ends=ends[0:(size(ends)-2)];
+	
+	initializeRecombinationRate(rates, ends);
+
+}
+
+
+///
+/// Demography:
+/// parameters here taken from Tennessen 2012
+/// via stdpopsim https://popsim-consortium.github.io/stdpopsim-docs/stable/catalog.html#sec_catalog_HomS
+1 /* create p1 */ early() {
+	sim.addSubpop("p1", 7310);
+	cat("gen,popSize_AF,meanFitness_AF,B_AF,avgvStrDel_AF,avgStrDel_AF,avgModDel_AF,avgWkDel_AF,popSize_EU,meanFitness_EU,B_EU,avgvStrDel_EU,avgStrDel_EU,avgModDel_EU,avgWkDel_EU" + "\n");
+	m1.convertToSubstitution = F;
+	m2.convertToSubstitution = F;
+	m3.convertToSubstitution = F;
+	m4.convertToSubstitution = F;
+	m5.convertToSubstitution = F;
+
+}
+
+
+mutation() {	
+	mut.setValue("dom", runif(n=1,min=0,max=mut.mutationType.dominanceCoeff*2));
+	return T;
+}
+
+mutationEffect(m1) {
+	if (homozygous)
+		return 1.0 + mut.selectionCoeff;
+	else
+		return 1.0 + mut.getValue("dom") * mut.selectionCoeff;
+}
+mutationEffect(m2) {
+	if (homozygous)
+		return 1.0 + mut.selectionCoeff;
+	else
+		return 1.0 + mut.getValue("dom") * mut.selectionCoeff;
+}
+mutationEffect(m3) {
+	if (homozygous)
+		return 1.0 + mut.selectionCoeff;
+	else
+		return 1.0 + mut.getValue("dom") * mut.selectionCoeff;
+}
+mutationEffect(m4) {
+	if (homozygous)
+		return 1.0 + mut.selectionCoeff;
+	else
+		return 1.0 + mut.getValue("dom") * mut.selectionCoeff;
+}
+mutationEffect(m5) {
+	if (homozygous)
+		return 1.0 + mut.selectionCoeff;
+	else
+		return 1.0 + mut.getValue("dom") * mut.selectionCoeff;
+}
+
+
+
+//pop growth in AF for 3880 (5,920-2040) generations
+5000 early() {
+	p1.setSubpopulationSize(14474);
+}
+
+
+// split off EU pop at Ne=1,861 for 1,120 (2,040-920) generations
+8880 early() {
+	sim.addSubpopSplit("p2", 1861, p1);
+	p1.setMigrationRates(c(p2), c(15e-5));
+	p2.setMigrationRates(c(p1), c(15e-5));
+}
+
+// initiate exponential growth in EU at rate of 0.00307 per generation
+// also decrease migration rates to 2.5e-15
+10000:10715 early() {
+	t = sim.cycle - 10000;
+	p2_size = round(1032 * (1 + 0.00307)^t);
+	p2.setSubpopulationSize(asInteger(p2_size));
+	
+	p1.setMigrationRates(c(p2), c(2.5e-5));
+	p2.setMigrationRates(c(p1), c(2.5e-5));
+}
+
+// initiate exponential growth for both pops
+10716:10920 early() {
+	t = sim.cycle - 10716;
+	p1_size = round(14474 * (1 + 0.0166)^t);
+	p2_size = round(9279 * (1 + 0.0195)^t);
+	
+	p1.setSubpopulationSize(asInteger(p1_size));
+	p2.setSubpopulationSize(asInteger(p2_size));
+}
+
+1:8880 early() {
+	if (sim.cycle % 100 == 0) {
+		stats = getStats(p1, sampleSize);
+		cat(sim.cycle + "," + p1.individuals.size() + "," + stats  + ",NA,NA,NA,NA,NA,NA,NA" + "\n");
+	
+	}
+
+}
+
+8880:10920 early() {
+	if (sim.cycle % 10 == 0 | sim.cycle==10920) {
+		statsP1 = getStats(p1, sampleSize);
+		statsP2 = getStats(p2, sampleSize);
+		cat(sim.cycle + "," + p1.individuals.size() + "," + statsP1 + "," + p2.individuals.size() + "," + statsP2 + "\n");
+	
+	}
+
+}
+
+// define function to sample a population for
+// mean fitness, heterozygosity, mean Froh, 
+// and avg num of mutations of different classes per individual (very str del, str del, mod del, wk del)
+function (s) getStats(o pop, i sampSize)
+{
+	i = sample(pop.individuals, sampSize, F);
+	
+	m = sortBy(i.genomes.mutations, "position"); //get all mutations in sample
+	m_uniq = unique(m); // get rid of redundant muts
+	DAF = sapply(m_uniq, "sum(m == applyValue);"); // count number of each mut in pop
+	m_uniq_polym = m_uniq[DAF != i.genomes.size()]; //remove fixed mutations??
+	
+	//initialize vectors
+	Num_vStrDel_muts = c();
+	Num_strDel_muts = c();
+	Num_modDel_muts = c();
+	Num_wkDel_muts = c();
+	Num_neut_muts = c();
+	B_pop = c();
+	
+	for (individual in i) {
+		
+		indm = sortBy(individual.genomes.mutations, "position");
+		indm = indm[match(indm, m_uniq_polym) >= 0];   // Check that individual mutations are not fixed 
+		indm_uniq = unique(indm);
+		
+		genotype = sapply(indm_uniq, "sum(indm == applyValue);");
+		
+		// tally number of mutations for different classes of selection coefficient per individual
+		s = individual.genomes.mutations.selectionCoeff;
+		
+		Num_vStrDel_muts = c(Num_vStrDel_muts, sum(s<=-0.1));
+		Num_strDel_muts = c(Num_strDel_muts, sum(s<=-0.01));
+		Num_modDel_muts = c(Num_modDel_muts, sum(s<=-0.001 & s > -0.01));
+		Num_wkDel_muts = c(Num_wkDel_muts, sum(s<=-0.00001 & s > -0.001));
+		Num_neut_muts = c(Num_neut_muts, sum(s==0.0));
+		
+		
+		//calculate 2B (inbreeding load)
+		del_muts = c(individual.genomes.mutationsOfType(m1),individual.genomes.mutationsOfType(m2),individual.genomes.mutationsOfType(m3),individual.genomes.mutationsOfType(m4),individual.genomes.mutationsOfType(m5));
+		B_ind = c();
+		
+		if (del_muts.length()>0) {
+			for(m in del_muts){
+				//check if mut is heterozygous
+				if(individual.genomes.mutationCountsInGenomes(m)==1){
+					
+					//protect against case where s < -1 (can happen with gamma DFE)
+					s = max(m.selectionCoeff,-1.0);
+					//difference in fitness between het and hom is s*(h-1) (1+sh -(1+s))
+					B_ind = c(B_ind, s*(m.getValue("dom")-1));
+					//catn(m.id + "," +  m.selectionCoeff + "," + m.selectionCoeff*(m.mutationType.dominanceCoeff-1));
+				}
+			}
+			
+			if(isNULL(B_ind)){
+				B_pop = c(B_pop, 0.0);
+			}
+			// this is summed rather than multiplied
+			//even if fitness is multiplicative
+			else{
+				B_pop = c(B_pop, sum(B_ind));
+			}
+		
+		}
+	
+	}
+	
+	return(mean(pop.cachedFitness(NULL)) + "," +  mean(B_pop) + "," + mean(Num_vStrDel_muts) + "," + mean(Num_strDel_muts)+ "," + mean(Num_modDel_muts) + "," + mean(Num_wkDel_muts));
+}
